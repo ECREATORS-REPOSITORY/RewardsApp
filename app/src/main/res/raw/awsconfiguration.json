@@ -1,0 +1,62 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "ap-south-1:e98809fd-9c8e-430f-be85-b4e2c5908fe9",
+        "Region": "ap-south-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "ap-south-1_6ov04pXFn",
+      "AppClientId": "3jh5mhupoec3vfk0kid2macgsi",
+      "AppClientSecret": "d47i81fasdtqci5opi0f3v96ipuktfsvdk021e2du4hjqa9q51",
+      "Region": "ap-south-1"
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "andriodattendancesys-userfiles-mobilehub-840218803",
+      "Region": "ap-south-1"
+    }
+  },
+  "DynamoDBObjectMapper": {
+    "Default": {
+      "Region": "ap-south-1"
+    }
+  },
+  "ContentManager": {
+    "Default": {
+      "Bucket": "andriodattendancesys-hosting-mobilehub-840218803",
+      "Region": "ap-south-1",
+      "CloudFrontURL": "https://dqim8pn1nhfqg.cloudfront.net"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "337f763a8a74414aaef01f8df30be2b8",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "andriodattendancesys-userfiles-mobilehub-840218803",
+      "Region": "ap-south-1"
+    }
+  },
+  "FacebookSignIn": {
+    "AppId": "1985341815110931",
+    "Permissions": "public_profile"
+  }
+}
