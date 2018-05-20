@@ -85,6 +85,7 @@ public class UserActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
         TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
+        //Need to change Acoount name 
         main_title.setText("Account");
         setSupportActionBar(toolbar);
 
