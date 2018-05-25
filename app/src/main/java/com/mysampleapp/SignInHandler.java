@@ -39,8 +39,7 @@ public class SignInHandler extends DefaultSignInResultHandler {
 
     @Override
     public boolean onCancel(final Activity callingActivity) {
-        // User abandoned sign in flow.
-        // For Mandatory Auth the app will exit unless an activity is launched here.
+
         final boolean shouldFinishSignInActivity = true;
         return shouldFinishSignInActivity;
     }

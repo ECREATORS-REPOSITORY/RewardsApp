@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="#9ACD32"
     tools:context="com.mysampleapp.MainActivity">
 
     <LinearLayout
@@ -12,7 +13,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/main_background">
+        android:background="@drawable/back">
 
         <android.support.v7.widget.Toolbar
             xmlns:app="http://schemas.Android.com/apk/res-auto"
@@ -38,7 +39,7 @@
         android:layout_gravity="start"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@color/nav_drawer_background" >
+        android:background="@drawable/back" >
 
         <RelativeLayout
             android:orientation="vertical"
@@ -60,7 +61,7 @@
                     android:src="@mipmap/user"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:background="@color/nav_drawer_background"/>
+                    android:background="@drawable/back"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -70,7 +71,7 @@
                     android:padding="4dp"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/main_nav_menu_default_user_text"
-                    android:background="@color/nav_drawer_no_user_background"
+                    android:background="@drawable/back"
                     android:id="@+id/userName" />
             </LinearLayout>
 
@@ -127,7 +128,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
-            android:background="@color/toolbar_items"
+            android:background="@drawable/back"
             app:headerLayout="@layout/nav_header_main"
             app:menu="@menu/activity_main_drawer" />
 

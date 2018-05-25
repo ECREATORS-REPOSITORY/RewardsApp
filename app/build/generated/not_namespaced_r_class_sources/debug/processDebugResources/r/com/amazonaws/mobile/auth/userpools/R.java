@@ -90,15 +90,15 @@ public final class R {
         public static final int sign_up_header = 0x7f0e011c;
         public static final int sign_up_success = 0x7f0e011d;
         public static final int sign_up_username_missing = 0x7f0e011e;
-        public static final int title_activity_forgot_password = 0x7f0e0125;
-        public static final int title_activity_mfa = 0x7f0e0129;
-        public static final int title_activity_sign_in = 0x7f0e012d;
-        public static final int title_activity_sign_up = 0x7f0e012e;
-        public static final int title_activity_sign_up_confirm = 0x7f0e012f;
-        public static final int title_dialog_sign_up_failed = 0x7f0e0132;
-        public static final int user_does_not_exist = 0x7f0e0136;
-        public static final int username_text = 0x7f0e014a;
-        public static final int verify_button_text = 0x7f0e014b;
+        public static final int title_activity_forgot_password = 0x7f0e0126;
+        public static final int title_activity_mfa = 0x7f0e012a;
+        public static final int title_activity_sign_in = 0x7f0e012e;
+        public static final int title_activity_sign_up = 0x7f0e012f;
+        public static final int title_activity_sign_up_confirm = 0x7f0e0130;
+        public static final int title_dialog_sign_up_failed = 0x7f0e0133;
+        public static final int user_does_not_exist = 0x7f0e0137;
+        public static final int username_text = 0x7f0e014b;
+        public static final int verify_button_text = 0x7f0e014c;
     }
     public static final class styleable {
         private styleable() {}

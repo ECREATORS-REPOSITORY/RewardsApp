@@ -1258,6 +1258,8 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_about_app">AboutApp</string>
     <string name="title_activity_add_attribute">AddAttributeActivity</string>
+    <string name="title_activity_android_button_with_icon_and_text">AndroidButtonWithIconAndText
+    </string>
     <string name="title_activity_change_password">ChangePasswordActivity</string>
     <string name="title_activity_choose_mfa">ChooseMFA</string>
     <string name="title_activity_device_settings">DeviceSettings</string>

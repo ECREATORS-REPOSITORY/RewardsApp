@@ -285,7 +285,7 @@ public class UserActivity extends AppCompatActivity {
 
 
     private void ShowMenu() {
-        Intent showmenu = new Intent(this, RoundedAndroidButton.class);
+        Intent showmenu = new Intent(this, AndroidButtonWithIconAndText.class);
         startActivity(showmenu);
     }
     // Verify attributes

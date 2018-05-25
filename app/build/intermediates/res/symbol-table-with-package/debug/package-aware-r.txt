@@ -892,6 +892,8 @@ drawable abc_vector_test
 drawable add
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable best_seller
 drawable button_default
 drawable button_pressed
 drawable button_selected
@@ -1583,6 +1585,7 @@ layout activity_sign_up_confirm
 layout activity_splash
 layout activity_user
 layout activity_verify
+layout android_button_with_icon_text
 layout circular_button_with_image_and_text
 layout com_facebook_activity_layout
 layout com_facebook_device_auth_dialog_fragment
@@ -1590,6 +1593,7 @@ layout com_facebook_login_fragment
 layout com_facebook_tooltip_bubble
 layout content_about_app
 layout content_add_attribute
+layout content_android_button_with_icon_and_text
 layout content_change_password
 layout content_choose_mfa
 layout content_device_settings
@@ -2001,6 +2005,7 @@ string sign_up_username_missing
 string status_bar_notification_info_overflow
 string title_activity_about_app
 string title_activity_add_attribute
+string title_activity_android_button_with_icon_and_text
 string title_activity_change_password
 string title_activity_choose_mfa
 string title_activity_device_settings

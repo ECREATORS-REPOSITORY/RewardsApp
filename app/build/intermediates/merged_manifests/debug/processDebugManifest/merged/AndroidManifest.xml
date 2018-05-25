@@ -148,6 +148,10 @@
             android:label="@string/title_activity_rounded_android_button"
             android:theme="@style/AppTheme" />
         <activity
+            android:name="com.mysampleapp.AndroidButtonWithIconAndText"
+            android:label="@string/title_activity_android_button_with_icon_and_text"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name="com.amazonaws.mobile.auth.ui.SignInActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_sign_in"

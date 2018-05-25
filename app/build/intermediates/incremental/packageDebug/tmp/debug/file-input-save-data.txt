@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Sat May 19 18:29:59 IST 2018
-1.base=F\:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sat May 26 00:06:01 IST 2018
+1.base=F\:\\WWE\\RewardsApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=F\:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+0.base=F\:\\WWE\\RewardsApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 1.path=classes.dex
