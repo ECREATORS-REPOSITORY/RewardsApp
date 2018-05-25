@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "F:\\WWE\\RewardsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-23.4.0.aar\\d27cf6865409695ac885570d3f49f0f6\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-23.4.0.aar\\b853ac3c88ee064df21f5b6df46600cb\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ba6d6c78718865fdeae086d79eb70f8f\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\cf56077f2cc6d3c456fbf9a7dbdeb69d\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

@@ -1,7 +1,7 @@
-#Sat May 19 18:29:59 IST 2018
-base.0=F\:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sat May 26 00:05:58 IST 2018
+base.0=F\:\\WWE\\RewardsApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=F\:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=F\:\\WWE\\RewardsApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
