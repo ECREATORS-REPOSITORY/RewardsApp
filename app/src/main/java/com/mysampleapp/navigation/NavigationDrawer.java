@@ -141,17 +141,17 @@ public class NavigationDrawer {
         final IdentityProvider identityProvider =
                 identityManager.getCurrentIdentityProvider();
 
-        final TextView userNameView = (TextView) activity.findViewById(R.id.userName);
+        //final TextView userNameView = (TextView) activity.findViewById(R.id.userName);
 
         if (identityProvider == null) {
             // Not signed in
-            userNameView.setText("Guest User");
-            userNameView.setBackgroundColor(activity.getResources().getColor(R.color.nav_drawer_no_user_background));
+          //  userNameView.setText("Guest User");
+            //userNameView.setBackgroundColor(activity.getResources().getColor(R.color.nav_drawer_no_user_background));
             return;
         }
 
         if (identityManager.isUserSignedIn()) {
-            userNameView.setText("Authenticated User");
+           // userNameView.setText("Authenticated User");
         }
     }
 
@@ -162,16 +162,16 @@ public class NavigationDrawer {
         final IdentityProvider identityProvider =
                 identityManager.getCurrentIdentityProvider();
 
-        final ImageView imageView =
-            (ImageView)activity.findViewById(R.id.userImage);
+        //final ImageView imageView =
+          //  (ImageView)activity.findViewById(R.id.userImage);
 
         if (identityProvider == null) {
             // Not signed in
             if (Build.VERSION.SDK_INT < 22) {
-                imageView.setImageBitmap(BitmapFactory.decodeResource(activity.getResources(), R.mipmap.user));
+                //imageView.setImageBitmap(BitmapFactory.decodeResource(activity.getResources(), R.mipmap.user));
             }
             else {
-                imageView.setImageDrawable(activity.getDrawable(R.mipmap.user));
+                //imageView.setImageDrawable(activity.getDrawable(R.mipmap.user));
             }
 
             return;

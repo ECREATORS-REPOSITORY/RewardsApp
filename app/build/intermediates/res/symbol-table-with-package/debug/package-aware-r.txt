@@ -530,6 +530,8 @@ color grey_400
 color grey_500
 color grey_600
 color grey_700
+color header_color
+color headertext_color
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color http_method_background_delete
@@ -592,6 +594,7 @@ color tooltip_background_light
 color top_bar_background
 color warning
 color white
+color yellow_Color
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1032,8 +1035,6 @@ id buttonVerifyEmail
 id buttonVerifyPhone
 id button_insert_sample_data
 id button_remove_sample_data
-id button_signin
-id button_signout
 id button_userFiles_private
 id button_userFiles_protected
 id button_userFiles_public
@@ -1179,13 +1180,9 @@ id group_main_sign_in_forgot_password
 id group_main_sign_up
 id group_main_sign_up_confrim
 id group_user_about
-id group_user_add_attribute
 id group_user_change_password
 id group_user_end
-id group_user_menu
-id group_user_settings
 id group_user_signout
-id group_user_trusted_devices
 id group_user_verify_attribute
 id home
 id homeAsUp
@@ -1218,7 +1215,6 @@ id listMode
 id listViewCurrentUserDetails
 id listViewMfaOptions
 id listViewTrustedDevices
-id listViewUserAttributes
 id list_item
 id list_item_cloudlogic_api_chooser_description
 id list_item_cloudlogic_api_chooser_endpoint
@@ -1232,7 +1228,6 @@ id list_item_title
 id main_content_layout
 id main_fragment_container
 id main_toolbar
-id main_toolbar_title
 id masked
 id media_actions
 id message
@@ -1252,12 +1247,8 @@ id nav_sign_in_forgot_password
 id nav_sign_up
 id nav_sign_up_confirm
 id nav_user_about
-id nav_user_add_attribute
 id nav_user_change_password
-id nav_user_menu
-id nav_user_settings
 id nav_user_sign_out
-id nav_user_trusted_devices
 id nav_user_verify_attribute
 id nav_userend
 id nav_view
@@ -1348,7 +1339,6 @@ id space10
 id space11
 id space13
 id space2
-id space3
 id space4
 id space5
 id space6
@@ -1461,7 +1451,6 @@ id textViewSimpleSpinnerItem
 id textViewTotpPhone
 id textViewUserDetailLabel
 id textViewUserDetailMessage
-id textViewUserDetailsMessage
 id textViewUserForgotPassword
 id textViewUserIdLabel
 id textViewUserIdMessage
@@ -1514,13 +1503,10 @@ id uniform
 id unknown
 id up
 id useLogo
-id userImage
-id userName
 id user_drawer_layout
 id user_files_context_menu_delete
 id user_files_context_menu_new_folder
 id user_files_context_menu_upload
-id user_info
 id user_pool_sign_in_view_id
 id user_update_attribute
 id verify_toolbar_title

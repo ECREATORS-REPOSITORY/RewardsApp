@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\WWE\\RewardsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "F:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\cf56077f2cc6d3c456fbf9a7dbdeb69d\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ba6d6c78718865fdeae086d79eb70f8f\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.12.0.aar\\9efd1ec308273c01ad1c0324fae10d1d\\res\\values-sv\\values-sv.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,184,291,407,500,567,636,696,768,842,934,1009,1084,1167,1265,1330,1394,1514",
-                        "endColumns": "128,106,115,92,66,68,59,71,73,91,74,74,82,97,64,63,119,61",
-                        "endOffsets": "179,286,402,495,562,631,691,763,837,929,1004,1079,1162,1260,1325,1389,1509,1571"
-                    },
-                    "to": {
-                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1824,1953,2060,2176,2269,2336,2405,2465,2537,2611,2703,2778,2853,2936,3034,3099,3163,3283",
-                        "endColumns": "128,106,115,92,66,68,59,71,73,91,74,74,82,97,64,63,119,61",
-                        "endOffsets": "1948,2055,2171,2264,2331,2400,2460,2532,2606,2698,2773,2848,2931,3029,3094,3158,3278,3340"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\69c8a01e351b3cdf15ef7d6b38246683\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e3699f3ddbab38adb9877469f19d6794\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,6 +35,23 @@
                         "startOffsets": "3424",
                         "endColumns": "100",
                         "endOffsets": "3520"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.12.0.aar\\3db56bb341337e1b04c9551a14f87ccf\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,184,291,407,500,567,636,696,768,842,934,1009,1084,1167,1265,1330,1394,1514",
+                        "endColumns": "128,106,115,92,66,68,59,71,73,91,74,74,82,97,64,63,119,61",
+                        "endOffsets": "179,286,402,495,562,631,691,763,837,929,1004,1079,1162,1260,1325,1389,1509,1571"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1824,1953,2060,2176,2269,2336,2405,2465,2537,2611,2703,2778,2853,2936,3034,3099,3163,3283",
+                        "endColumns": "128,106,115,92,66,68,59,71,73,91,74,74,82,97,64,63,119,61",
+                        "endOffsets": "1948,2055,2171,2264,2331,2400,2460,2532,2606,2698,2773,2848,2931,3029,3094,3158,3278,3340"
                     }
                 }
             ]

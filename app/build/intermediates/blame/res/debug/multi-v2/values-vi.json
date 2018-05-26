@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\WWE\\RewardsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "F:\\mysampleapp\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.12.0.aar\\9efd1ec308273c01ad1c0324fae10d1d\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e3699f3ddbab38adb9877469f19d6794\\res\\values-vi\\values-vi.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,291,410,503,571,640,701,770,845,939,1015,1091,1189,1292,1354,1421,1567",
-                        "endColumns": "134,100,118,92,67,68,60,68,74,93,75,75,97,102,61,66,145,58",
-                        "endOffsets": "185,286,405,498,566,635,696,765,840,934,1010,1086,1184,1287,1349,1416,1562,1621"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1874,2009,2110,2229,2322,2390,2459,2520,2589,2664,2758,2834,2910,3008,3111,3173,3240,3386",
-                        "endColumns": "134,100,118,92,67,68,60,68,74,93,75,75,97,102,61,66,145,58",
-                        "endOffsets": "2004,2105,2224,2317,2385,2454,2515,2584,2659,2753,2829,2905,3003,3106,3168,3235,3381,3440"
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3529",
+                        "endColumns": "100",
+                        "endOffsets": "3625"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\cf56077f2cc6d3c456fbf9a7dbdeb69d\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ba6d6c78718865fdeae086d79eb70f8f\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\69c8a01e351b3cdf15ef7d6b38246683\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Akhil.JARVIS\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.12.0.aar\\3db56bb341337e1b04c9551a14f87ccf\\res\\values-vi\\values-vi.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,291,410,503,571,640,701,770,845,939,1015,1091,1189,1292,1354,1421,1567",
+                        "endColumns": "134,100,118,92,67,68,60,68,74,93,75,75,97,102,61,66,145,58",
+                        "endOffsets": "185,286,405,498,566,635,696,765,840,934,1010,1086,1184,1287,1349,1416,1562,1621"
                     },
                     "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "3529",
-                        "endColumns": "100",
-                        "endOffsets": "3625"
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1874,2009,2110,2229,2322,2390,2459,2520,2589,2664,2758,2834,2910,3008,3111,3173,3240,3386",
+                        "endColumns": "134,100,118,92,67,68,60,68,74,93,75,75,97,102,61,66,145,58",
+                        "endOffsets": "2004,2105,2224,2317,2385,2454,2515,2584,2659,2753,2829,2905,3003,3106,3168,3235,3381,3440"
                     }
                 }
             ]

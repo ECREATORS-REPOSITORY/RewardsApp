@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AWSCognitoFrontlineDataAndroid-2.0/AWSCognitoFrontlineDataAndroid-2.0.iml" filepath="$PROJECT_DIR$/AWSCognitoFrontlineDataAndroid-2.0/AWSCognitoFrontlineDataAndroid-2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/AWSCognitoSignInServiceAndroidClient-1.0/AWSCognitoSignInServiceAndroidClient-1.0.iml" filepath="$PROJECT_DIR$/AWSCognitoSignInServiceAndroidClient-1.0/AWSCognitoSignInServiceAndroidClient-1.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RewardsApp.iml" filepath="$PROJECT_DIR$/RewardsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySampleApp.iml" filepath="$PROJECT_DIR$/MySampleApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

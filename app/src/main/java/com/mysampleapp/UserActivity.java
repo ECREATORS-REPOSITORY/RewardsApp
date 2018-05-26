@@ -1,19 +1,3 @@
-/*
- * Copyright 2013-2017 Amazon.com,
- * Inc. or its affiliates. All Rights Reserved.
- *
- * Licensed under the Amazon Software License (the "License").
- * You may not use this file except in compliance with the
- * License. A copy of the License is located at
- *
- *      http://aws.amazon.com/asl/
- *
- * or in the "license" file accompanying this file. This file is
- * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
- * CONDITIONS OF ANY KIND, express or implied. See the License
- * for the specific language governing permissions and
- * limitations under the License.
- */
 
 package com.mysampleapp;
 
@@ -84,9 +68,9 @@ public class UserActivity extends AppCompatActivity {
         // Set toolbar for this screen
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
-        TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
+       // TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
         //Need to change Acoount name 
-        main_title.setText("Account");
+       // main_title.setText("Account");
         setSupportActionBar(toolbar);
 
         // Set navigation drawer for this screen
@@ -183,34 +167,42 @@ public class UserActivity extends AppCompatActivity {
 
         // Find which item was selected
         switch(item.getItemId()) {
+/*
             case R.id.nav_user_add_attribute:
                 // Add a new attribute
                 addAttribute();
                 break;
+*/
 
             case R.id.nav_user_change_password:
                 changePassword();
                 break;
 
+/*
             case R.id.nav_user_menu:
                 ShowMenu();
                 break;
+*/
 
             case R.id.nav_user_verify_attribute:
                 // Confirm new user
                 // confirmUser();
                 attributesVerification();
                 break;
+/*
             case R.id.nav_user_settings:
                 // Show user settings
                 showSettings();
                 break;
+*/
             case R.id.nav_user_sign_out:
                 // Sign out from this account
                 signOut();
+/*
                 break;
             case R.id.nav_user_trusted_devices:
                 showTrustedDevices();
+*/
                 break;
             case R.id.nav_user_about:
                 // For the inquisitive
@@ -229,7 +221,7 @@ public class UserActivity extends AppCompatActivity {
     private void showAttributes() {
         final UserAttributesAdapter attributesAdapter = new UserAttributesAdapter(getApplicationContext());
         final ListView attributesListView;
-        attributesListView = (ListView) findViewById(R.id.listViewUserAttributes);
+        attributesListView = (ListView) findViewById(R.id.listViewCurrentUserDetails);
         attributesListView.setAdapter(attributesAdapter);
         attributesList = attributesListView;
 

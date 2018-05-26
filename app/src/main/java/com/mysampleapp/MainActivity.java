@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         setContentView(R.layout.activity_main);
         setupToolbar(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setupNavigationMenu(savedInstanceState);
+       // setupNavigationMenu(savedInstanceState);
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawer, toolbar, R.string.nav_drawer_open, R.string.nav_drawer_close);
         mDrawer.addDrawerListener(mDrawerToggle);
@@ -224,6 +224,12 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             }
         });
     }
+
+    @Override
+    protected void onUserLeaveHint() {
+        super.onUserLeaveHint();
+    }
+
     private void performAction(MenuItem item) {
         mDrawer.closeDrawers();
         switch (item.getItemId()) {
@@ -370,8 +376,8 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 if (s.length() == 0) {
                     TextView label = (TextView) findViewById(R.id.textViewUserIdLabel);
-                    label.setText(R.string.Username);
-                    inUsername.setBackground(getDrawable(R.drawable.text_border_selector));
+                   // label.setText(R.string.Username);
+                 //   inUsername.setBackground(getDrawable(R.drawable.text_border_selector));
                 }
             }
             @Override
@@ -388,8 +394,8 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 if (s.length() == 0) {
                     TextView label = (TextView) findViewById(R.id.textViewUserPasswordLabel);
-                    label.setText(R.string.Password);
-                    inPassword.setBackground(getDrawable(R.drawable.text_border_selector));
+                    //label.setText(R.string.Password);
+                    //inPassword.setBackground(getDrawable(R.drawable.text_border_selector));
                 }
             }
             public void onTextChanged(CharSequence s, int start, int before, int count) {
@@ -556,41 +562,41 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         }
     }
 
-    private void setupSignInButtons() {
+   // private void setupSignInButtons() {
 
-        signOutButton = (Button) findViewById(R.id.button_signout);
-        signOutButton.setOnClickListener(this);
+       // signOutButton = (Button) findViewById(R.id.button_signout);
+     //   signOutButton.setOnClickListener(this);
 
-        signInButton = (Button) findViewById(R.id.button_signin);
-        signInButton.setOnClickListener(this);
-        final boolean isUserSignedIn = identityManager.isUserSignedIn();
-        signOutButton.setVisibility(isUserSignedIn ? View.VISIBLE : View.INVISIBLE);
-        signInButton.setVisibility(!isUserSignedIn ? View.VISIBLE : View.INVISIBLE);
+        //signInButton = (Button) findViewById(R.id.button_signin);
+       // signInButton.setOnClickListener(this);
+        //final boolean isUserSignedIn = identityManager.isUserSignedIn();
+        //signOutButton.setVisibility(isUserSignedIn ? View.VISIBLE : View.INVISIBLE);
+        //signInButton.setVisibility(!isUserSignedIn ? View.VISIBLE : View.INVISIBLE);
 
-    }
+    //}
 
-  private void setupNavigationMenu(final Bundle savedInstanceState) {
-        final DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        final ListView drawerItems = (ListView) findViewById(R.id.nav_drawer_items);
+//  private void setupNavigationMenu(final Bundle savedInstanceState) {
+        //final DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        //final ListView drawerItems = (ListView) findViewById(R.id.nav_drawer_items);
 //
 //        // Create the navigation drawer.
-        navigationDrawer = new NavigationDrawer(this, toolbar, drawerLayout, drawerItems,
-                R.id.main_fragment_container);
+       // navigationDrawer = new NavigationDrawer(this, toolbar, drawerLayout, drawerItems,
+         //       R.id.main_fragment_container);
 //
 //        // Add navigation drawer menu items.
 //        // Home isn't a demo, but is fake as a demo.
-        DemoConfiguration.DemoFeature home = new DemoConfiguration.DemoFeature();
-        home.iconResId = R.mipmap.icon_home;
-        home.titleResId = R.string.main_nav_menu_item_home;
-        navigationDrawer.addDemoFeatureToMenu(home);
+       // DemoConfiguration.DemoFeature home = new DemoConfiguration.DemoFeature();
+        //home.iconResId = R.mipmap.icon_home;
+        //home.titleResId = R.string.main_nav_menu_item_home;
+        //navigationDrawer.addDemoFeatureToMenu(home);
 
-        for (DemoConfiguration.DemoFeature demoFeature : DemoConfiguration.getDemoFeatureList()) {
-            navigationDrawer.addDemoFeatureToMenu(demoFeature);
-        }
-        if (savedInstanceState == null) {
-            navigationDrawer.showHome();
-        }
-    }
+        //for (DemoConfiguration.DemoFeature demoFeature : DemoConfiguration.getDemoFeatureList()) {
+          //  navigationDrawer.addDemoFeatureToMenu(demoFeature);
+        //}
+        //if (savedInstanceState == null) {
+      //      navigationDrawer.showHome();
+    //    }
+  //  }
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         return super.onContextItemSelected(item);
@@ -598,7 +604,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
     @Override
     protected void onResume() {
         super.onResume();
-        setupSignInButtons();
+        //setupSignInButtons();
     }
 
     @Override

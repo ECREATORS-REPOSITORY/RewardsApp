@@ -32,15 +32,15 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int large = 0x7f0800ea;
-        public static final int mfa_button = 0x7f080108;
-        public static final int signup_button = 0x7f080167;
-        public static final int signup_form = 0x7f080168;
-        public static final int signup_layout = 0x7f080169;
-        public static final int signup_message = 0x7f08016a;
-        public static final int signup_view = 0x7f08016b;
-        public static final int small = 0x7f08016c;
-        public static final int user_pool_sign_in_view_id = 0x7f080224;
+        public static final int large = 0x7f0800e4;
+        public static final int mfa_button = 0x7f080100;
+        public static final int signup_button = 0x7f08015b;
+        public static final int signup_form = 0x7f08015c;
+        public static final int signup_layout = 0x7f08015d;
+        public static final int signup_message = 0x7f08015e;
+        public static final int signup_view = 0x7f08015f;
+        public static final int small = 0x7f080160;
+        public static final int user_pool_sign_in_view_id = 0x7f080213;
     }
     public static final class layout {
         private layout() {}

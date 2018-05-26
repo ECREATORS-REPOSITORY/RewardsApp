@@ -43,7 +43,7 @@
                 android:textAlignment="center"
                 android:id="@+id/signUp_toolbar_title"
                 android:text="@string/Menu"
-                android:background="@drawable/back"
+                android:background="@color/yellow_Color"
                 android:textColor="@color/toolbar_items"
                 android:textSize="@dimen/action_bar_text" />
             </android.support.v7.widget.Toolbar>

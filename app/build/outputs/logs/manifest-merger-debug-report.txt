@@ -1,447 +1,439 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2c9246f7a94a03ea69d87aaaba0f9e6a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cf56077f2cc6d3c456fbf9a7dbdeb69d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:2:1-10:80
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:2:1-21:80
-MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\87ecf0d9c419816a7ea5e45ef9a4b4c4\AndroidManifest.xml:2:1-4:80
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\f8a56ed3d5b303c6e35364185ef61c55\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:21:1-39:12
-MERGED from [com.android.support:multidex:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\564d74900a5dcf298628c98baf2869dd\AndroidManifest.xml:16:1-19:12
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\ebd5512ff8754678dfff1e148a739fd2\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0e8ad38cae2a4c22b85565255f5b5246\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\ef35e71757dd885ad567e53f194e7ff8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\119c914806b860598ecde6cbb58397ad\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\59e3af873cde5acf77e04f836ea32a6d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aaef6ac7fdc8b6d7bbd028989039b672\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\625f02b169c553c2881501a9c2606fdf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7a0a088a43b716dbd356f3741612829c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\36738f64cc07e507231bf898b507bb6b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\08b2eaf5ead399b3b08d785e4b921588\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\69c8a01e351b3cdf15ef7d6b38246683\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\b853ac3c88ee064df21f5b6df46600cb\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a2bcb0e143df43c8d9dfb3742a8ce999\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9db486922b80844413df8a1b9da9c958\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c192f6414ff96e7728308781374746bc\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aa525f0a46f204c73639797e7f7cee74\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+MERGED from [com.android.support:design:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d432e4b0c492d02d301a6830c1da7a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:2:1-10:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:2:1-21:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\e61673ec8bcca10b6e58f408db303266\AndroidManifest.xml:2:1-4:80
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:21:1-39:12
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\9ad2104c0951909cb1c6cb3e38a990cf\AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\70642368e000cb3530902c006088ea8b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3f50bfe1bc5bfa560e772e94217b5f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\feafabea3f7403184602b953e6b91554\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9fdc3dd98944fcc5771b303089215cd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\74668754ed04804719c0869b263d43b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be391c07d1f16d13e7c047e49a1acb71\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cc95c188cb4e0a5756da625a15cc95e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\492faede65ab05eb96d5636fb4e12943\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e3699f3ddbab38adb9877469f19d6794\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5476479dce057889b0cc8934dbd8556d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\609b123e28046cf81c9fa81306cdf1c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3d95f08f53d5a37e04060dff5b933904\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
 	package
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:113-138
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:113-138
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:40-148:10
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:3:50-108
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:50-108
 uses-permission#android.permission.INTERNET
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:5:145-65
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:4:5-66
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:4:5-66
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:4:5-66
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:4:5-66
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:5:145-65
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:4:5-66
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:5:162-204
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:5:162-204
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:6:212-78
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:5:5-78
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:5:5-78
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:5:5-78
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:5:5-78
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:6:212-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:6:229-283
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:6:229-283
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:7:291-75
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:6:5-75
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:6:5-75
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:7:291-75
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:6:5-75
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:6:5-75
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:7:308-359
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:7:308-359
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:8:367-67
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:8:367-67
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:8:384-427
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:8:384-427
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:9:435-79
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:9:435-79
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:9:452-507
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:9:452-507
 application
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:16:516-146:18
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:7:5-9:19
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:7:5-9:19
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:8:6-20:20
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:8:6-20:20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\f8a56ed3d5b303c6e35364185ef61c55\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\f8a56ed3d5b303c6e35364185ef61c55\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:28:5-37:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:28:5-37:19
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\ebd5512ff8754678dfff1e148a739fd2\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\ebd5512ff8754678dfff1e148a739fd2\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\b853ac3c88ee064df21f5b6df46600cb\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\b853ac3c88ee064df21f5b6df46600cb\AndroidManifest.xml:22:5-20
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:516-132:18
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:7:5-9:19
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:7:5-9:19
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:8:6-20:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:8:6-20:20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:28:5-37:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:28:5-37:19
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:7:18-44
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:7:18-44
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:16:652-684
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:652-684
 	android:icon
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:16:608-643
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:608-643
 	android:allowBackup
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:16:573-599
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:573-599
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:16:693-724
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:693-724
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:16:537-564
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:537-564
 activity#com.mysampleapp.MainActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:20:734-26:19
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:20:734-26:19
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:20:797-840
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:20:797-840
 	android:launchMode
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:20:853-888
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:20:853-888
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:20:756-784
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:20:756-784
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:21:902-25:28
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:21:902-25:28
 action#android.intent.action.MAIN
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:22:934-68
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:22:934-68
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:22:942-983
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:22:942-983
 category#android.intent.category.LAUNCHER
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:24:1004-75
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:24:1004-75
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:24:1014-1061
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:24:1014-1061
 activity#com.mysampleapp.SplashActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:30:1122-48
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:30:1122-48
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:30:1270-1302
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:30:1270-1302
 	android:configChanges
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:30:1187-1257
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:30:1187-1257
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:30:1144-1174
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:30:1144-1174
 service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:45:1753-38
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:35:1316-38
 	android:enabled
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:45:1867-1889
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:35:1430-1452
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:45:1774-1854
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:35:1337-1417
 service#com.amazonaws.mobile.downloader.service.DownloadService
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:46:1901-90
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:36:1464-90
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:46:1910-1980
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:36:1473-1543
 receiver#com.amazonaws.mobile.downloader.service.NetworkStateListener
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:51:1993-55:19
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:41:1556-45:19
 	android:enabled
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:51:2103-2126
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:41:1666-1689
 	android:exported
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:51:2139-2163
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:41:1702-1726
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:51:2015-2090
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:41:1578-1653
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:52:2177-54:28
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:42:1740-44:28
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:53:2209-78
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:43:1772-78
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:53:2217-2268
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:43:1780-1831
 provider#com.amazonaws.mobile.downloader.query.DownloadQueueProvider
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:61:2330-40
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:51:1893-40
 	android:enabled
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:61:2515-2537
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:51:2078-2100
 	android:authorities
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:61:2439-2502
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:51:2002-2065
 	android:exported
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:61:2550-2574
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:51:2113-2137
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:61:2352-2426
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:51:1915-1989
 provider#android.support.v4.content.FileProvider
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:66:2586-70:19
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:56:2149-60:19
 	android:grantUriPermissions
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:66:2786-2820
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:56:2349-2383
 	android:authorities
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:66:2675-2736
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:56:2238-2299
 	android:exported
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:66:2749-2773
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:56:2312-2336
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:66:2608-2662
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:56:2171-2225
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:69:2834-66
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:59:2397-66
 	android:resource
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:69:2928-2974
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:59:2491-2537
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:69:2861-2911
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:59:2424-2474
 activity#com.mysampleapp.UserActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:77:3074-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:67:2637-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:77:3137-3180
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:67:2700-2743
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:77:3193-3236
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:67:2756-2799
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:77:3096-3124
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:67:2659-2687
 activity#com.mysampleapp.RegisterUser
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:80:3248-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:70:2811-59
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:80:3311-3354
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:70:2874-2917
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:80:3270-3298
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:70:2833-2861
 activity#com.mysampleapp.AboutApp
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:84:3366-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:74:2929-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:84:3425-3473
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:74:2988-3036
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:84:3486-3529
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:74:3049-3092
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:84:3388-3412
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:74:2951-2975
 activity#com.mysampleapp.SignUpConfirm
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:88:3541-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:78:3104-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:88:3605-3659
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:78:3168-3222
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:88:3672-3715
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:78:3235-3278
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:88:3563-3592
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:78:3126-3155
 activity#com.mysampleapp.MFAActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:92:3727-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:82:3290-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:92:3789-3831
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:82:3352-3394
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:92:3844-3887
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:82:3407-3450
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:92:3749-3776
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:82:3312-3339
 activity#com.mysampleapp.ForgotPasswordActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:96:3899-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:86:3462-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:96:3972-4026
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:86:3535-3589
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:96:4039-4082
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:86:3602-3645
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:96:3921-3959
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:86:3484-3522
 activity#com.mysampleapp.SettingsActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:100:4094-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:90:3657-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:100:4161-4208
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:90:3724-3771
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:100:4221-4264
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:90:3784-3827
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:100:4116-4148
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:90:3679-3711
 activity#com.mysampleapp.ChangePasswordActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:104:4276-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:94:3839-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:104:4349-4403
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:94:3912-3966
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:104:4416-4459
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:94:3979-4022
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:104:4298-4336
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:94:3861-3899
 activity#com.mysampleapp.VerifyActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:108:4471-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:98:4034-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:108:4536-4581
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:98:4099-4144
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:108:4594-4637
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:98:4157-4200
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:108:4493-4523
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:98:4056-4086
 activity#com.mysampleapp.AddAttributeActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:112:4649-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:102:4212-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:112:4720-4772
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:102:4283-4335
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:112:4785-4828
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:102:4348-4391
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:112:4671-4707
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:102:4234-4270
 activity#com.mysampleapp.DeviceSettings
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:116:4840-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:106:4403-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:116:4905-4959
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:106:4468-4522
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:116:4972-5015
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:106:4535-4578
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:116:4862-4892
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:106:4425-4455
 activity#com.mysampleapp.NewPassword
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:120:5027-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:110:4590-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:120:5089-5140
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:110:4652-4703
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:120:5153-5196
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:110:4716-4759
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:120:5049-5076
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:110:4612-4639
 activity#com.mysampleapp.ChooseMFA
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:124:5208-59
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:114:4771-59
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:124:5268-5317
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:114:4831-4880
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:124:5330-5373
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:114:4893-4936
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:124:5230-5255
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:114:4793-4818
 activity#com.mysampleapp.ItemListActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:128:5385-47
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:118:4948-47
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:128:5452-5491
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:118:5015-5054
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:128:5504-5535
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:118:5067-5098
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:128:5407-5439
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:118:4970-5002
 activity#com.mysampleapp.ItemDetailActivity
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:133:5547-137:19
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:123:5110-127:19
 	android:parentActivityName
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:133:5670-5716
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:123:5233-5279
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:133:5616-5657
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:123:5179-5220
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:133:5729-5760
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:123:5292-5323
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:133:5569-5603
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:123:5132-5166
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:136:5774-68
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:126:5337-68
 	android:value
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:136:5864-5912
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:126:5427-5475
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:136:5801-5847
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:126:5364-5410
 activity#com.mysampleapp.RoundedAndroidButton
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:141:5944-47
+ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:131:5507-56
 	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:141:6015-6076
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:131:5578-5639
 	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:141:6089-6120
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:131:5652-5683
 	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:141:5966-6002
-activity#com.mysampleapp.AndroidButtonWithIconAndText
-ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:145:6132-56
-	android:label
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:145:6211-6283
-	android:theme
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:145:6296-6327
-	android:name
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml:145:6154-6198
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:131:5529-5565
 uses-sdk
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2c9246f7a94a03ea69d87aaaba0f9e6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2c9246f7a94a03ea69d87aaaba0f9e6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cf56077f2cc6d3c456fbf9a7dbdeb69d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cf56077f2cc6d3c456fbf9a7dbdeb69d\AndroidManifest.xml:20:5-44
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:10:1-69
-MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:10:1-69
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:21:1-69
-MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:21:1-69
-MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\87ecf0d9c419816a7ea5e45ef9a4b4c4\AndroidManifest.xml:4:1-69
-MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\87ecf0d9c419816a7ea5e45ef9a4b4c4\AndroidManifest.xml:4:1-69
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\f8a56ed3d5b303c6e35364185ef61c55\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\f8a56ed3d5b303c6e35364185ef61c55\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:multidex:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\564d74900a5dcf298628c98baf2869dd\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:multidex:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\564d74900a5dcf298628c98baf2869dd\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\ebd5512ff8754678dfff1e148a739fd2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\ebd5512ff8754678dfff1e148a739fd2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0e8ad38cae2a4c22b85565255f5b5246\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0e8ad38cae2a4c22b85565255f5b5246\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\ef35e71757dd885ad567e53f194e7ff8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\ef35e71757dd885ad567e53f194e7ff8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\119c914806b860598ecde6cbb58397ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\119c914806b860598ecde6cbb58397ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\59e3af873cde5acf77e04f836ea32a6d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\59e3af873cde5acf77e04f836ea32a6d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aaef6ac7fdc8b6d7bbd028989039b672\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aaef6ac7fdc8b6d7bbd028989039b672\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\625f02b169c553c2881501a9c2606fdf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\625f02b169c553c2881501a9c2606fdf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7a0a088a43b716dbd356f3741612829c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7a0a088a43b716dbd356f3741612829c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\36738f64cc07e507231bf898b507bb6b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\36738f64cc07e507231bf898b507bb6b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\08b2eaf5ead399b3b08d785e4b921588\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\08b2eaf5ead399b3b08d785e4b921588\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\69c8a01e351b3cdf15ef7d6b38246683\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\69c8a01e351b3cdf15ef7d6b38246683\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\b853ac3c88ee064df21f5b6df46600cb\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\b853ac3c88ee064df21f5b6df46600cb\AndroidManifest.xml:20:5-43
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a2bcb0e143df43c8d9dfb3742a8ce999\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a2bcb0e143df43c8d9dfb3742a8ce999\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9db486922b80844413df8a1b9da9c958\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\9db486922b80844413df8a1b9da9c958\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c192f6414ff96e7728308781374746bc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c192f6414ff96e7728308781374746bc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aa525f0a46f204c73639797e7f7cee74\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aa525f0a46f204c73639797e7f7cee74\AndroidManifest.xml:20:5-44
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d432e4b0c492d02d301a6830c1da7a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d432e4b0c492d02d301a6830c1da7a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:21:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:21:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\e61673ec8bcca10b6e58f408db303266\AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\e61673ec8bcca10b6e58f408db303266\AndroidManifest.xml:4:1-69
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\9ad2104c0951909cb1c6cb3e38a990cf\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\9ad2104c0951909cb1c6cb3e38a990cf\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\70642368e000cb3530902c006088ea8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\70642368e000cb3530902c006088ea8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3f50bfe1bc5bfa560e772e94217b5f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3f50bfe1bc5bfa560e772e94217b5f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\feafabea3f7403184602b953e6b91554\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\feafabea3f7403184602b953e6b91554\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9fdc3dd98944fcc5771b303089215cd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9fdc3dd98944fcc5771b303089215cd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\74668754ed04804719c0869b263d43b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\74668754ed04804719c0869b263d43b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be391c07d1f16d13e7c047e49a1acb71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be391c07d1f16d13e7c047e49a1acb71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cc95c188cb4e0a5756da625a15cc95e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cc95c188cb4e0a5756da625a15cc95e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\492faede65ab05eb96d5636fb4e12943\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\492faede65ab05eb96d5636fb4e12943\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e3699f3ddbab38adb9877469f19d6794\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e3699f3ddbab38adb9877469f19d6794\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:20:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5476479dce057889b0cc8934dbd8556d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5476479dce057889b0cc8934dbd8556d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\609b123e28046cf81c9fa81306cdf1c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\609b123e28046cf81c9fa81306cdf1c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3d95f08f53d5a37e04060dff5b933904\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3d95f08f53d5a37e04060dff5b933904\AndroidManifest.xml:20:5-44
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		ADDED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
-		INJECTED from F:\WWE\RewardsApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 activity#com.amazonaws.mobile.auth.ui.SignInActivity
-ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:8:9-234
+ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:8:9-234
 	android:screenOrientation
-		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:8:196-232
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:8:196-232
 	android:label
-		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:8:90-136
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:8:90-136
 	android:configChanges
-		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:8:19-89
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:8:19-89
 	android:name
-		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\56cc9008e1e5086763a1848d37f6f061\AndroidManifest.xml:8:137-195
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:8:137-195
 activity#com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity
-ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:9:10-10:21
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:9:10-10:21
 	android:screenOrientation
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:9:220-256
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:9:220-256
 	android:label
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:9:91-145
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:9:91-145
 	android:configChanges
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:9:20-90
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:9:20-90
 	android:name
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:9:146-219
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:9:146-219
 activity#com.amazonaws.mobile.auth.userpools.SignUpActivity
-ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:12:10-13:21
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:12:10-13:21
 	android:screenOrientation
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:12:204-240
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:12:204-240
 	android:label
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:12:91-137
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:12:91-137
 	android:configChanges
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:12:20-90
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:12:20-90
 	android:name
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:12:138-203
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:12:138-203
 activity#com.amazonaws.mobile.auth.userpools.MFAActivity
-ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:15:10-16:21
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:15:10-16:21
 	android:screenOrientation
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:15:197-233
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:15:197-233
 	android:label
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:15:91-133
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:15:91-133
 	android:configChanges
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:15:20-90
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:15:20-90
 	android:name
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:15:134-196
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:15:134-196
 activity#com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity
-ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:18:10-19:21
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:10-19:21
 	android:screenOrientation
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:18:219-255
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:219-255
 	android:label
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:18:91-145
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:91-145
 	android:configChanges
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:18:20-90
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:20-90
 	android:name
-		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\user\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\92fc2009d779cecccc0bd848b9b2c2d7\AndroidManifest.xml:18:146-218
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:146-218
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:29:9-32:75
+ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:29:9-32:75
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:31:13-96
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:31:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:32:13-72
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:32:13-72
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:30:13-57
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:33:9-36:20
+ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:33:9-36:20
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:35:13-36
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\9efd1ec308273c01ad1c0324fae10d1d\AndroidManifest.xml:34:13-58
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:34:13-58

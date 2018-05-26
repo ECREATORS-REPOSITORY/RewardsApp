@@ -52,10 +52,10 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int packed = 0x7f08013d;
-        public static final int parent = 0x7f080140;
-        public static final int spread = 0x7f0801a2;
-        public static final int spread_inside = 0x7f0801a3;
+        public static final int packed = 0x7f080131;
+        public static final int parent = 0x7f080134;
+        public static final int spread = 0x7f080195;
+        public static final int spread_inside = 0x7f080196;
     }
     public static final class styleable {
         private styleable() {}

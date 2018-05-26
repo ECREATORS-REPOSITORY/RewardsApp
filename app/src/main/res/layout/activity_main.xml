@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="#9ACD32"
     tools:context="com.mysampleapp.MainActivity">
 
     <LinearLayout
@@ -13,14 +12,14 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/back">
+        android:background="@color/yellow_Color">
 
         <android.support.v7.widget.Toolbar
             xmlns:app="http://schemas.Android.com/apk/res-auto"
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/top_bar_background"
+            android:background="@color/header_color"
             app:contentInsetEnd="0dp"
             app:contentInsetStart="0dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -29,70 +28,50 @@
             android:id="@+id/main_fragment_container"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:background="@color/yellow_Color"
             android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/rewards" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_inter_group_separation"
+            android:layout_below="@drawable/login_logo"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space_1" />
+
+        <TextView
+            android:id="@+id/textViewMoreInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/space_about_1"
+            android:layout_alignParentStart="true"
+            android:autoLink="all"
+            android:text="Recognition and reward programs are a key part of that experience. Used well, they can help employees get the connection, meaning, appreciation and impact that lead to job satisfaction and engagement. Used in an ad-hoc manner? They can be expensive and counterproductive." />
+
+
+
     </LinearLayout>
 
-    <!-- navigation drawer -->
+
     <LinearLayout
         android:id="@+id/nav_drawer"
         android:orientation="vertical"
         android:layout_gravity="start"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@drawable/back" >
+        android:background="@color/yellow_Color" >
 
         <RelativeLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/nav_drawer_top_background">
-            <LinearLayout
-                android:id="@+id/user_info"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="12dp"
-                android:layout_marginLeft="12dp"
-                android:gravity="left">
-                <ImageView
-                    android:id="@+id/userImage"
-                    android:scaleType="fitCenter"
-                    android:src="@mipmap/user"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:background="@drawable/back"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginRight="12dp"
-                    android:padding="4dp"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/main_nav_menu_default_user_text"
-                    android:background="@drawable/back"
-                    android:id="@+id/userName" />
-            </LinearLayout>
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/button_text_sign_in"
-                android:id="@+id/button_signin"
-                android:layout_marginLeft="6dp"
-                android:layout_marginRight="6dp"
-                android:layout_below="@id/user_info"
-                android:layout_centerHorizontal="true" />
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/button_text_sign_out"
-                android:id="@+id/button_signout"
-                android:layout_marginLeft="6dp"
-                android:layout_marginRight="6dp"
-                android:layout_below="@id/user_info"
-                android:layout_centerHorizontal="true" />
+            android:background="@color/yellow_Color">
 
 
         </RelativeLayout>
@@ -110,15 +89,17 @@
                 android:orientation="horizontal">
 
                 <!-- Add the ActionBar -->
-                <include
-                    layout="@layout/main_tool_bar"
+                <!--<include
+                    //layout="@layout/main_tool_bar"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
-
+-->
                 <!-- Set the Main content -->
 
                 <include layout="@layout/content_main" />
+
             </RelativeLayout>
+
 
         </ScrollView>
 
@@ -128,7 +109,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
-            android:background="@drawable/back"
+            android:background="@color/yellow_Color"
             app:headerLayout="@layout/nav_header_main"
             app:menu="@menu/activity_main_drawer" />
 
