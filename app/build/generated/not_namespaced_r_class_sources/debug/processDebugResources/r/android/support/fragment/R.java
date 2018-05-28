@@ -26,10 +26,10 @@ public final class R {
         public static final int layout_anchor = 0x7f0300d0;
         public static final int layout_anchorGravity = 0x7f0300d1;
         public static final int layout_behavior = 0x7f0300d2;
-        public static final int layout_dodgeInsetEdges = 0x7f0300f1;
-        public static final int layout_insetEdge = 0x7f0300fa;
-        public static final int layout_keyline = 0x7f0300fb;
-        public static final int statusBarBackground = 0x7f03014e;
+        public static final int layout_dodgeInsetEdges = 0x7f0300d5;
+        public static final int layout_insetEdge = 0x7f0300d6;
+        public static final int layout_keyline = 0x7f0300d7;
+        public static final int statusBarBackground = 0x7f03012a;
     }
     public static final class bool {
         private bool() {}
@@ -110,16 +110,16 @@ public final class R {
         public static final int notification_background = 0x7f08012d;
         public static final int notification_main_column = 0x7f08012e;
         public static final int notification_main_column_container = 0x7f08012f;
-        public static final int right = 0x7f08013d;
-        public static final int right_icon = 0x7f08013e;
-        public static final int right_side = 0x7f08013f;
-        public static final int start = 0x7f08019b;
-        public static final int tag_transition_group = 0x7f0801a2;
-        public static final int text = 0x7f0801a3;
-        public static final int text2 = 0x7f0801a4;
-        public static final int time = 0x7f0801f3;
-        public static final int title = 0x7f0801f4;
-        public static final int top = 0x7f080203;
+        public static final int right = 0x7f08013c;
+        public static final int right_icon = 0x7f08013d;
+        public static final int right_side = 0x7f08013e;
+        public static final int start = 0x7f080198;
+        public static final int tag_transition_group = 0x7f08019f;
+        public static final int text = 0x7f0801a0;
+        public static final int text2 = 0x7f0801a1;
+        public static final int time = 0x7f0801f0;
+        public static final int title = 0x7f0801f1;
+        public static final int top = 0x7f080200;
     }
     public static final class integer {
         private integer() {}
@@ -156,10 +156,10 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] CoordinatorLayout = { 0x7f0300cd, 0x7f03014e };
+        public static final int[] CoordinatorLayout = { 0x7f0300cd, 0x7f03012a };
         public static final int CoordinatorLayout_keylines = 0;
         public static final int CoordinatorLayout_statusBarBackground = 1;
-        public static final int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300f1, 0x7f0300fa, 0x7f0300fb };
+        public static final int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7 };
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         public static final int CoordinatorLayout_Layout_layout_anchor = 1;
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 2;

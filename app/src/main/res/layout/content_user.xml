@@ -30,17 +30,18 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/viewReward"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/space_about_3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
             android:drawableRight="@mipmap/button_money"
             android:text="View Rewards"
             android:textAllCaps="false"
             android:textColor="@color/dark_content_text"
             android:textSize="@dimen/activity_button_text_size"
-            android:id="@+id/aboutBack"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/space_about_3"
-            android:background="@drawable/button_selector" />
+            android:onClick="viewRewardHandler" />
 
         <Space
 
@@ -50,16 +51,17 @@
 
 
         <Button
+            android:id="@+id/redeemReward"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/space_about_3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
             android:drawableRight="@mipmap/ic_launcher1"
             android:text="Redeem"
             android:textAllCaps="false"
             android:textColor="@color/dark_content_text"
-            android:textSize="@dimen/activity_button_text_size"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/space_about_3"
-            android:background="@drawable/button_selector" />
+            android:textSize="@dimen/activity_button_text_size" />
 
     </LinearLayout>
 

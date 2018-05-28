@@ -137,6 +137,14 @@
             android:label="@string/title_activity_rounded_android_button"
             android:theme="@style/AppTheme" />
         <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.amazonaws.mobile.auth.ui.SignInActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_sign_in"
@@ -164,14 +172,6 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_sign_up_confirm"
             android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.facebook.CustomTabActivity"
-            android:exported="true" >
         </activity>
     </application>
 

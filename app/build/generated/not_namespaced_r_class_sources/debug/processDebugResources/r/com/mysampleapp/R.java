@@ -1661,288 +1661,6 @@ public final class R {
      */
     public static final int layout_collapseParallaxMultiplier=0x7f0300d4;
     /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintBaseline_creator=0x7f0300d5;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f0300d6;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintBottom_creator=0x7f0300d7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintBottom_toBottomOf=0x7f0300d8;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintBottom_toTopOf=0x7f0300d9;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int layout_constraintDimensionRatio=0x7f0300da;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintEnd_toEndOf=0x7f0300db;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintEnd_toStartOf=0x7f0300dc;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintGuide_begin=0x7f0300dd;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_constraintGuide_end=0x7f0300de;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintGuide_percent=0x7f0300df;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintHorizontal_bias=0x7f0300e0;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f0300e1;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintHorizontal_weight=0x7f0300e2;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintLeft_creator=0x7f0300e3;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintLeft_toLeftOf=0x7f0300e4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintLeft_toRightOf=0x7f0300e5;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintRight_creator=0x7f0300e6;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintRight_toLeftOf=0x7f0300e7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintRight_toRightOf=0x7f0300e8;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintStart_toEndOf=0x7f0300e9;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintStart_toStartOf=0x7f0300ea;
-    /**
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_constraintTop_creator=0x7f0300eb;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintTop_toBottomOf=0x7f0300ec;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintTop_toTopOf=0x7f0300ed;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintVertical_bias=0x7f0300ee;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int layout_constraintVertical_chainStyle=0x7f0300ef;
-    /**
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     */
-    public static final int layout_constraintVertical_weight=0x7f0300f0;
-    /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1959,71 +1677,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f0300f1;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_editor_absoluteX=0x7f0300f2;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_editor_absoluteY=0x7f0300f3;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginBottom=0x7f0300f4;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginEnd=0x7f0300f5;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginLeft=0x7f0300f6;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginRight=0x7f0300f7;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginStart=0x7f0300f8;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int layout_goneMarginTop=0x7f0300f9;
+    public static final int layout_dodgeInsetEdges=0x7f0300d5;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2040,11 +1694,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f0300fa;
+    public static final int layout_insetEdge=0x7f0300d6;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f0300fb;
+    public static final int layout_keyline=0x7f0300d7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2059,56 +1713,56 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f0300fc;
+    public static final int layout_scrollFlags=0x7f0300d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f0300fd;
+    public static final int layout_scrollInterpolator=0x7f0300d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f0300fe;
+    public static final int listChoiceBackgroundIndicator=0x7f0300da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f0300ff;
+    public static final int listDividerAlertDialog=0x7f0300db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f030100;
+    public static final int listItemLayout=0x7f0300dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f030101;
+    public static final int listLayout=0x7f0300dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f030102;
+    public static final int listMenuViewStyle=0x7f0300de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f030103;
+    public static final int listPopupWindowStyle=0x7f0300df;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2116,7 +1770,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f030104;
+    public static final int listPreferredItemHeight=0x7f0300e0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2124,7 +1778,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f030105;
+    public static final int listPreferredItemHeightLarge=0x7f0300e1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2132,7 +1786,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f030106;
+    public static final int listPreferredItemHeightSmall=0x7f0300e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2140,7 +1794,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f030107;
+    public static final int listPreferredItemPaddingLeft=0x7f0300e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2148,19 +1802,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f030108;
+    public static final int listPreferredItemPaddingRight=0x7f0300e4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f030109;
+    public static final int logo=0x7f0300e5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f03010a;
+    public static final int logoDescription=0x7f0300e6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2168,7 +1822,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f03010b;
+    public static final int maxActionInlineWidth=0x7f0300e7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2176,56 +1830,56 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f03010c;
+    public static final int maxButtonHeight=0x7f0300e8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f03010d;
+    public static final int measureWithLargestChild=0x7f0300e9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f03010e;
+    public static final int menu=0x7f0300ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int metaButtonBarButtonStyle=0x7f03010f;
+    public static final int metaButtonBarButtonStyle=0x7f0300eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int metaButtonBarStyle=0x7f030110;
+    public static final int metaButtonBarStyle=0x7f0300ec;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int mfaViewBackgroundColor=0x7f030111;
+    public static final int mfaViewBackgroundColor=0x7f0300ed;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f030112;
+    public static final int multiChoiceItemLayout=0x7f0300ee;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f030113;
+    public static final int navigationContentDescription=0x7f0300ef;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f030114;
+    public static final int navigationIcon=0x7f0300f0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2238,7 +1892,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f030115;
+    public static final int navigationMode=0x7f0300f1;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2254,12 +1908,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f030116;
+    public static final int numericModifiers=0x7f0300f2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f030117;
+    public static final int overlapAnchor=0x7f0300f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2267,7 +1921,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f030118;
+    public static final int paddingBottomNoButtons=0x7f0300f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2275,7 +1929,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f030119;
+    public static final int paddingEnd=0x7f0300f5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2283,7 +1937,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f03011a;
+    public static final int paddingStart=0x7f0300f6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2291,21 +1945,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f03011b;
+    public static final int paddingTopNoTitle=0x7f0300f7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f03011c;
+    public static final int panelBackground=0x7f0300f8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f03011d;
+    public static final int panelMenuListTheme=0x7f0300f9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2313,30 +1967,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f03011e;
+    public static final int panelMenuListWidth=0x7f0300fa;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f03011f;
+    public static final int passwordToggleContentDescription=0x7f0300fb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f030120;
+    public static final int passwordToggleDrawable=0x7f0300fc;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f030121;
+    public static final int passwordToggleEnabled=0x7f0300fd;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f030122;
+    public static final int passwordToggleTint=0x7f0300fe;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2351,33 +2005,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f030123;
+    public static final int passwordToggleTintMode=0x7f0300ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f030124;
+    public static final int popupMenuStyle=0x7f030100;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f030125;
+    public static final int popupTheme=0x7f030101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f030126;
+    public static final int popupWindowStyle=0x7f030102;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f030127;
+    public static final int preserveIconSpacing=0x7f030103;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2385,7 +2039,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f030128;
+    public static final int pressedTranslationZ=0x7f030104;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2393,69 +2047,69 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f030129;
+    public static final int progressBarPadding=0x7f030105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f03012a;
+    public static final int progressBarStyle=0x7f030106;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f03012b;
+    public static final int queryBackground=0x7f030107;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f03012c;
+    public static final int queryHint=0x7f030108;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f03012d;
+    public static final int radioButtonStyle=0x7f030109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f03012e;
+    public static final int ratingBarStyle=0x7f03010a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f03012f;
+    public static final int ratingBarStyleIndicator=0x7f03010b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f030130;
+    public static final int ratingBarStyleSmall=0x7f03010c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f030131;
+    public static final int reverseLayout=0x7f03010d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f030132;
+    public static final int rippleColor=0x7f03010e;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f030133;
+    public static final int scrimAnimationDuration=0x7f03010f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2463,49 +2117,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f030134;
+    public static final int scrimVisibleHeightTrigger=0x7f030110;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f030135;
+    public static final int searchHintIcon=0x7f030111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f030136;
+    public static final int searchIcon=0x7f030112;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f030137;
+    public static final int searchViewStyle=0x7f030113;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f030138;
+    public static final int seekBarStyle=0x7f030114;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f030139;
+    public static final int selectableItemBackground=0x7f030115;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f03013a;
+    public static final int selectableItemBackgroundBorderless=0x7f030116;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2520,7 +2174,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f03013b;
+    public static final int showAsAction=0x7f030117;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2534,95 +2188,95 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f03013c;
+    public static final int showDividers=0x7f030118;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f03013d;
+    public static final int showText=0x7f030119;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f03013e;
+    public static final int showTitle=0x7f03011a;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int signInBackgroundColor=0x7f03013f;
+    public static final int signInBackgroundColor=0x7f03011b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int signInImageResId=0x7f030140;
+    public static final int signInImageResId=0x7f03011c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int signUpConfirmViewBackgroundColor=0x7f030141;
+    public static final int signUpConfirmViewBackgroundColor=0x7f03011d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int signUpViewBackgroundColor=0x7f030142;
+    public static final int signUpViewBackgroundColor=0x7f03011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f030143;
+    public static final int singleChoiceItemLayout=0x7f03011f;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f030144;
+    public static final int spanCount=0x7f030120;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f030145;
+    public static final int spinBars=0x7f030121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f030146;
+    public static final int spinnerDropDownItemStyle=0x7f030122;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f030147;
+    public static final int spinnerStyle=0x7f030123;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f030148;
+    public static final int splitTrack=0x7f030124;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f030149;
+    public static final int srcCompat=0x7f030125;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f03014a;
+    public static final int stackFromEnd=0x7f030126;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f03014b;
+    public static final int state_above_anchor=0x7f030127;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f03014c;
+    public static final int state_collapsed=0x7f030128;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f03014d;
+    public static final int state_collapsible=0x7f030129;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2632,59 +2286,59 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f03014e;
+    public static final int statusBarBackground=0x7f03012a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f03014f;
+    public static final int statusBarScrim=0x7f03012b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f030150;
+    public static final int subMenuArrow=0x7f03012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f030151;
+    public static final int submitBackground=0x7f03012d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f030152;
+    public static final int subtitle=0x7f03012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f030153;
+    public static final int subtitleTextAppearance=0x7f03012f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f030154;
+    public static final int subtitleTextColor=0x7f030130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f030155;
+    public static final int subtitleTextStyle=0x7f030131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f030156;
+    public static final int suggestionRowLayout=0x7f030132;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2692,7 +2346,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f030157;
+    public static final int switchMinWidth=0x7f030133;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2700,28 +2354,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f030158;
+    public static final int switchPadding=0x7f030134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f030159;
+    public static final int switchStyle=0x7f030135;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f03015a;
+    public static final int switchTextAppearance=0x7f030136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f03015b;
+    public static final int tabBackground=0x7f030137;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2729,7 +2383,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f03015c;
+    public static final int tabContentStart=0x7f030138;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2741,13 +2395,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f03015d;
+    public static final int tabGravity=0x7f030139;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f03015e;
+    public static final int tabIndicatorColor=0x7f03013a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2755,7 +2409,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f03015f;
+    public static final int tabIndicatorHeight=0x7f03013b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2763,7 +2417,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f030160;
+    public static final int tabMaxWidth=0x7f03013c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2771,7 +2425,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f030161;
+    public static final int tabMinWidth=0x7f03013d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2783,7 +2437,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f030162;
+    public static final int tabMode=0x7f03013e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2791,7 +2445,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f030163;
+    public static final int tabPadding=0x7f03013f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2799,7 +2453,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f030164;
+    public static final int tabPaddingBottom=0x7f030140;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2807,7 +2461,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f030165;
+    public static final int tabPaddingEnd=0x7f030141;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2815,7 +2469,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f030166;
+    public static final int tabPaddingStart=0x7f030142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2823,31 +2477,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f030167;
+    public static final int tabPaddingTop=0x7f030143;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f030168;
+    public static final int tabSelectedTextColor=0x7f030144;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f030169;
+    public static final int tabTextAppearance=0x7f030145;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f03016a;
+    public static final int tabTextColor=0x7f030146;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int text=0x7f03016b;
+    public static final int text=0x7f030147;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2856,73 +2510,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f03016c;
+    public static final int textAllCaps=0x7f030148;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f03016d;
+    public static final int textAppearanceLargePopupMenu=0x7f030149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f03016e;
+    public static final int textAppearanceListItem=0x7f03014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f03016f;
+    public static final int textAppearanceListItemSecondary=0x7f03014b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f030170;
+    public static final int textAppearanceListItemSmall=0x7f03014c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f030171;
+    public static final int textAppearancePopupMenuHeader=0x7f03014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f030172;
+    public static final int textAppearanceSearchResultSubtitle=0x7f03014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f030173;
+    public static final int textAppearanceSearchResultTitle=0x7f03014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f030174;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f030175;
+    public static final int textAppearanceSmallPopupMenu=0x7f030150;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2932,7 +2576,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorError=0x7f030176;
+    public static final int textColorAlertDialogListItem=0x7f030151;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2942,14 +2586,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f030177;
+    public static final int textColorError=0x7f030152;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f030153;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f030178;
+    public static final int theme=0x7f030154;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2957,7 +2611,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f030179;
+    public static final int thickness=0x7f030155;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2965,13 +2619,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f03017a;
+    public static final int thumbTextPadding=0x7f030156;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f03017b;
+    public static final int thumbTint=0x7f030157;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2987,20 +2641,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f03017c;
+    public static final int thumbTintMode=0x7f030158;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f03017d;
+    public static final int tickMark=0x7f030159;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f03017e;
+    public static final int tickMarkTint=0x7f03015a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3016,13 +2670,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f03017f;
+    public static final int tickMarkTintMode=0x7f03015b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f030180;
+    public static final int tint=0x7f03015c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3038,17 +2692,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f030181;
+    public static final int tintMode=0x7f03015d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f030182;
+    public static final int title=0x7f03015e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f030183;
+    public static final int titleEnabled=0x7f03015f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3056,7 +2710,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f030184;
+    public static final int titleMargin=0x7f030160;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3064,7 +2718,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f030185;
+    public static final int titleMarginBottom=0x7f030161;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3072,7 +2726,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f030186;
+    public static final int titleMarginEnd=0x7f030162;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3080,7 +2734,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f030187;
+    public static final int titleMarginStart=0x7f030163;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3088,7 +2742,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f030188;
+    public static final int titleMarginTop=0x7f030164;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3096,48 +2750,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f030189;
+    public static final int titleMargins=0x7f030165;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f03018a;
+    public static final int titleTextAppearance=0x7f030166;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f03018b;
+    public static final int titleTextColor=0x7f030167;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f03018c;
+    public static final int titleTextStyle=0x7f030168;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f03018d;
+    public static final int toolbarId=0x7f030169;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f03018e;
+    public static final int toolbarNavigationButtonStyle=0x7f03016a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f03018f;
+    public static final int toolbarStyle=0x7f03016b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3147,32 +2801,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f030190;
+    public static final int tooltipForegroundColor=0x7f03016c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f030191;
+    public static final int tooltipFrameBackground=0x7f03016d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f030192;
+    public static final int tooltipText=0x7f03016e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f030193;
+    public static final int track=0x7f03016f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f030194;
+    public static final int trackTint=0x7f030170;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3188,39 +2842,39 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f030195;
+    public static final int trackTintMode=0x7f030171;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f030196;
+    public static final int useCompatPadding=0x7f030172;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f030197;
+    public static final int viewInflaterClass=0x7f030173;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f030198;
+    public static final int voiceIcon=0x7f030174;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030199;
+    public static final int windowActionBar=0x7f030175;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f03019a;
+    public static final int windowActionBarOverlay=0x7f030176;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f03019b;
+    public static final int windowActionModeOverlay=0x7f030177;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3232,7 +2886,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f03019c;
+    public static final int windowFixedHeightMajor=0x7f030178;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3244,7 +2898,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f03019d;
+    public static final int windowFixedHeightMinor=0x7f030179;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3256,7 +2910,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f03019e;
+    public static final int windowFixedWidthMajor=0x7f03017a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3268,7 +2922,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f03019f;
+    public static final int windowFixedWidthMinor=0x7f03017b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3280,7 +2934,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0301a0;
+    public static final int windowMinWidthMajor=0x7f03017c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3292,12 +2946,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0301a1;
+    public static final int windowMinWidthMinor=0x7f03017d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0301a2;
+    public static final int windowNoTitle=0x7f03017e;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -4154,240 +3808,238 @@ public final class R {
     public static final int notification_main_column=0x7f08012e;
     public static final int notification_main_column_container=0x7f08012f;
     public static final int open_graph=0x7f080130;
-    public static final int packed=0x7f080131;
-    public static final int page=0x7f080132;
-    public static final int parallax=0x7f080133;
-    public static final int parent=0x7f080134;
-    public static final int parentPanel=0x7f080135;
-    public static final int parent_matrix=0x7f080136;
-    public static final int pin=0x7f080137;
-    public static final int progress_bar=0x7f080138;
-    public static final int progress_circular=0x7f080139;
-    public static final int progress_horizontal=0x7f08013a;
-    public static final int radio=0x7f08013b;
-    public static final int resend_confirm_req=0x7f08013c;
-    public static final int right=0x7f08013d;
-    public static final int right_icon=0x7f08013e;
-    public static final int right_side=0x7f08013f;
-    public static final int save_image_matrix=0x7f080140;
-    public static final int save_non_transition_alpha=0x7f080141;
-    public static final int save_scale_type=0x7f080142;
-    public static final int screen=0x7f080143;
-    public static final int scroll=0x7f080144;
-    public static final int scrollIndicatorDown=0x7f080145;
-    public static final int scrollIndicatorUp=0x7f080146;
-    public static final int scrollView=0x7f080147;
-    public static final int scrollable=0x7f080148;
-    public static final int search_badge=0x7f080149;
-    public static final int search_bar=0x7f08014a;
-    public static final int search_button=0x7f08014b;
-    public static final int search_close_btn=0x7f08014c;
-    public static final int search_edit_frame=0x7f08014d;
-    public static final int search_go_btn=0x7f08014e;
-    public static final int search_mag_icon=0x7f08014f;
-    public static final int search_plate=0x7f080150;
-    public static final int search_src_text=0x7f080151;
-    public static final int search_voice_btn=0x7f080152;
-    public static final int select_dialog_listview=0x7f080153;
-    public static final int settings_toolbar_title=0x7f080154;
-    public static final int shortcut=0x7f080155;
-    public static final int showCustom=0x7f080156;
-    public static final int showHome=0x7f080157;
-    public static final int showTitle=0x7f080158;
-    public static final int signUp=0x7f080159;
-    public static final int signUp_toolbar_title=0x7f08015a;
-    public static final int signup_button=0x7f08015b;
-    public static final int signup_form=0x7f08015c;
-    public static final int signup_layout=0x7f08015d;
-    public static final int signup_message=0x7f08015e;
-    public static final int signup_view=0x7f08015f;
-    public static final int small=0x7f080160;
-    public static final int smallLabel=0x7f080161;
-    public static final int snackbar_action=0x7f080162;
-    public static final int snackbar_text=0x7f080163;
-    public static final int snap=0x7f080164;
-    public static final int space0=0x7f080165;
-    public static final int space1=0x7f080166;
-    public static final int space10=0x7f080167;
-    public static final int space11=0x7f080168;
-    public static final int space13=0x7f080169;
-    public static final int space2=0x7f08016a;
-    public static final int space4=0x7f08016b;
-    public static final int space5=0x7f08016c;
-    public static final int space6=0x7f08016d;
-    public static final int space7=0x7f08016e;
-    public static final int space8=0x7f08016f;
-    public static final int space9=0x7f080170;
-    public static final int spaceA=0x7f080171;
-    public static final int space_1=0x7f080172;
-    public static final int space_ChangePass_1=0x7f080173;
-    public static final int space_ChangePass_1A=0x7f080174;
-    public static final int space_ChangePass_2=0x7f080175;
-    public static final int space_ChangePass_3=0x7f080176;
-    public static final int space_Choose_MFA1=0x7f080177;
-    public static final int space_Choose_MFA2=0x7f080178;
-    public static final int space_MFA1=0x7f080179;
-    public static final int space_MFA2=0x7f08017a;
-    public static final int space_MFA3=0x7f08017b;
-    public static final int space_Verify_1=0x7f08017c;
-    public static final int space_Verify_2=0x7f08017d;
-    public static final int space_Verify_2A=0x7f08017e;
-    public static final int space_Verify_3=0x7f08017f;
-    public static final int space_Verify_3A=0x7f080180;
-    public static final int space_Verify_4=0x7f080181;
-    public static final int space_Verify_5=0x7f080182;
-    public static final int space_about_1=0x7f080183;
-    public static final int space_about_2=0x7f080184;
-    public static final int space_about_3=0x7f080185;
-    public static final int space_add_attr_1=0x7f080186;
-    public static final int space_add_attr_2=0x7f080187;
-    public static final int space_add_attr_3=0x7f080188;
-    public static final int space_add_attr_4=0x7f080189;
-    public static final int space_add_attr_5=0x7f08018a;
-    public static final int space_confirm_1=0x7f08018b;
-    public static final int space_confirm_1A=0x7f08018c;
-    public static final int space_confirm_1B=0x7f08018d;
-    public static final int space_confirm_2=0x7f08018e;
-    public static final int space_confirm_3=0x7f08018f;
-    public static final int spacer=0x7f080190;
-    public static final int spinnerAttributes=0x7f080191;
-    public static final int splashImage=0x7f080192;
-    public static final int splashText=0x7f080193;
-    public static final int split_action_bar=0x7f080194;
-    public static final int spread=0x7f080195;
-    public static final int spread_inside=0x7f080196;
-    public static final int src_atop=0x7f080197;
-    public static final int src_in=0x7f080198;
-    public static final int src_over=0x7f080199;
-    public static final int standard=0x7f08019a;
-    public static final int start=0x7f08019b;
-    public static final int status_bar_latest_event_content=0x7f08019c;
-    public static final int submenuarrow=0x7f08019d;
-    public static final int submit_area=0x7f08019e;
-    public static final int switchSettingsPhone=0x7f08019f;
-    public static final int switchTotpPhone=0x7f0801a0;
-    public static final int tabMode=0x7f0801a1;
-    public static final int tag_transition_group=0x7f0801a2;
-    public static final int text=0x7f0801a3;
-    public static final int text2=0x7f0801a4;
-    public static final int textSpacerNoButtons=0x7f0801a5;
-    public static final int textSpacerNoTitle=0x7f0801a6;
-    public static final int textViewAbout=0x7f0801a7;
-    public static final int textViewAddAttrTitle=0x7f0801a8;
-    public static final int textViewAttrDataLabel=0x7f0801a9;
-    public static final int textViewAttrDataMessage=0x7f0801aa;
-    public static final int textViewChangePassCurrPassLabel=0x7f0801ab;
-    public static final int textViewChangePassCurrPassMessage=0x7f0801ac;
-    public static final int textViewChangePassMessage=0x7f0801ad;
-    public static final int textViewChangePassNewPassLabel=0x7f0801ae;
-    public static final int textViewChangePassNewPassMessage=0x7f0801af;
-    public static final int textViewChangePassTitle=0x7f0801b0;
-    public static final int textViewChooseMFATitle=0x7f0801b1;
-    public static final int textViewConfirmCodeLabel=0x7f0801b2;
-    public static final int textViewConfirmCodeMessage=0x7f0801b3;
-    public static final int textViewConfirmSubtext_1=0x7f0801b4;
-    public static final int textViewConfirmSubtext_2=0x7f0801b5;
-    public static final int textViewConfirmTitle=0x7f0801b6;
-    public static final int textViewConfirmUserIdLabel=0x7f0801b7;
-    public static final int textViewConfirmUserIdMessage=0x7f0801b8;
-    public static final int textViewDevicesMessage=0x7f0801b9;
-    public static final int textViewForgotPasswordCodeLabel=0x7f0801ba;
-    public static final int textViewForgotPasswordCodeMessage=0x7f0801bb;
-    public static final int textViewForgotPasswordMessage=0x7f0801bc;
-    public static final int textViewForgotPasswordTitle=0x7f0801bd;
-    public static final int textViewForgotPasswordUserIdLabel=0x7f0801be;
-    public static final int textViewForgotPasswordUserIdMessage=0x7f0801bf;
-    public static final int textViewMFACodeLabel=0x7f0801c0;
-    public static final int textViewMFACodeMessage=0x7f0801c1;
-    public static final int textViewMFASubTitle=0x7f0801c2;
-    public static final int textViewMFATitle=0x7f0801c3;
-    public static final int textViewMoreInfo=0x7f0801c4;
-    public static final int textViewNavMain=0x7f0801c5;
-    public static final int textViewNavUser=0x7f0801c6;
-    public static final int textViewNavUserSub=0x7f0801c7;
-    public static final int textViewNewPassPassLabel=0x7f0801c8;
-    public static final int textViewNewPassPassMessage=0x7f0801c9;
-    public static final int textViewRegEmailLabel=0x7f0801ca;
-    public static final int textViewRegEmailMessage=0x7f0801cb;
-    public static final int textViewRegGivenNameLabel=0x7f0801cc;
-    public static final int textViewRegGivenNameMessage=0x7f0801cd;
-    public static final int textViewRegMessage=0x7f0801ce;
-    public static final int textViewRegPhoneLabel=0x7f0801cf;
-    public static final int textViewRegPhoneMessage=0x7f0801d0;
-    public static final int textViewRegUserIdLabel=0x7f0801d1;
-    public static final int textViewRegUserIdMessage=0x7f0801d2;
-    public static final int textViewRegUserPasswordLabel=0x7f0801d3;
-    public static final int textViewSettingsMessage=0x7f0801d4;
-    public static final int textViewSettingsPhone=0x7f0801d5;
-    public static final int textViewSettingsTitle=0x7f0801d6;
-    public static final int textViewSimpleSpinnerItem=0x7f0801d7;
-    public static final int textViewTotpPhone=0x7f0801d8;
-    public static final int textViewUserDetailLabel=0x7f0801d9;
-    public static final int textViewUserDetailMessage=0x7f0801da;
-    public static final int textViewUserForgotPassword=0x7f0801db;
-    public static final int textViewUserIdLabel=0x7f0801dc;
-    public static final int textViewUserIdMessage=0x7f0801dd;
-    public static final int textViewUserPasswordLabel=0x7f0801de;
-    public static final int textViewUserPasswordMessage=0x7f0801df;
-    public static final int textViewUserRegPasswordMessage=0x7f0801e0;
-    public static final int textViewUserSignUp=0x7f0801e1;
-    public static final int textViewVerifyCodeLabel=0x7f0801e2;
-    public static final int textViewVerifyCodeMessage=0x7f0801e3;
-    public static final int textViewVerifyEmailText=0x7f0801e4;
-    public static final int textViewVerifyPhoneText=0x7f0801e5;
-    public static final int textViewVerifyTitle=0x7f0801e6;
-    public static final int textView_demoAnalytics_customEvent=0x7f0801e7;
-    public static final int textView_demoAnalytics_monetizationEvent=0x7f0801e8;
-    public static final int textView_demoIdentityUserID=0x7f0801e9;
-    public static final int textView_demoIdentityUserIDLabel=0x7f0801ea;
-    public static final int textView_demoIdentityUserName=0x7f0801eb;
-    public static final int text_demo_feature_description=0x7f0801ec;
-    public static final int text_demo_feature_description_heading=0x7f0801ed;
-    public static final int text_demo_feature_overview=0x7f0801ee;
-    public static final int text_demo_feature_powered_by=0x7f0801ef;
-    public static final int text_input_password_toggle=0x7f0801f0;
-    public static final int textinput_counter=0x7f0801f1;
-    public static final int textinput_error=0x7f0801f2;
-    public static final int time=0x7f0801f3;
-    public static final int title=0x7f0801f4;
-    public static final int titleDividerNoCustom=0x7f0801f5;
-    public static final int title_template=0x7f0801f6;
-    public static final int toolbar=0x7f0801f7;
-    public static final int toolbarChangePass=0x7f0801f8;
-    public static final int toolbar_AboutApp=0x7f0801f9;
-    public static final int toolbar_Devices=0x7f0801fa;
-    public static final int toolbar_NewPassword=0x7f0801fb;
-    public static final int toolbar_Register=0x7f0801fc;
-    public static final int toolbar_add_attribute=0x7f0801fd;
-    public static final int toolbar_choose_mfa=0x7f0801fe;
-    public static final int toolbar_layout=0x7f0801ff;
-    public static final int toolbar_mfa=0x7f080200;
-    public static final int toolbar_settings=0x7f080201;
-    public static final int toolbar_verify=0x7f080202;
-    public static final int top=0x7f080203;
-    public static final int topPanel=0x7f080204;
-    public static final int touch_outside=0x7f080205;
-    public static final int transition_current_scene=0x7f080206;
-    public static final int transition_layout_save=0x7f080207;
-    public static final int transition_position=0x7f080208;
-    public static final int transition_scene_layoutid_cache=0x7f080209;
-    public static final int transition_transform=0x7f08020a;
-    public static final int uniform=0x7f08020b;
-    public static final int unknown=0x7f08020c;
-    public static final int up=0x7f08020d;
-    public static final int useLogo=0x7f08020e;
-    public static final int user_drawer_layout=0x7f08020f;
-    public static final int user_files_context_menu_delete=0x7f080210;
-    public static final int user_files_context_menu_new_folder=0x7f080211;
-    public static final int user_files_context_menu_upload=0x7f080212;
-    public static final int user_pool_sign_in_view_id=0x7f080213;
-    public static final int user_update_attribute=0x7f080214;
-    public static final int verify_toolbar_title=0x7f080215;
-    public static final int view_offset_helper=0x7f080216;
-    public static final int visible=0x7f080217;
-    public static final int webViewLicense=0x7f080218;
-    public static final int withText=0x7f080219;
-    public static final int wrap_content=0x7f08021a;
+    public static final int page=0x7f080131;
+    public static final int parallax=0x7f080132;
+    public static final int parentPanel=0x7f080133;
+    public static final int parent_matrix=0x7f080134;
+    public static final int pin=0x7f080135;
+    public static final int progress_bar=0x7f080136;
+    public static final int progress_circular=0x7f080137;
+    public static final int progress_horizontal=0x7f080138;
+    public static final int radio=0x7f080139;
+    public static final int redeemReward=0x7f08013a;
+    public static final int resend_confirm_req=0x7f08013b;
+    public static final int right=0x7f08013c;
+    public static final int right_icon=0x7f08013d;
+    public static final int right_side=0x7f08013e;
+    public static final int save_image_matrix=0x7f08013f;
+    public static final int save_non_transition_alpha=0x7f080140;
+    public static final int save_scale_type=0x7f080141;
+    public static final int screen=0x7f080142;
+    public static final int scroll=0x7f080143;
+    public static final int scrollIndicatorDown=0x7f080144;
+    public static final int scrollIndicatorUp=0x7f080145;
+    public static final int scrollView=0x7f080146;
+    public static final int scrollable=0x7f080147;
+    public static final int search_badge=0x7f080148;
+    public static final int search_bar=0x7f080149;
+    public static final int search_button=0x7f08014a;
+    public static final int search_close_btn=0x7f08014b;
+    public static final int search_edit_frame=0x7f08014c;
+    public static final int search_go_btn=0x7f08014d;
+    public static final int search_mag_icon=0x7f08014e;
+    public static final int search_plate=0x7f08014f;
+    public static final int search_src_text=0x7f080150;
+    public static final int search_voice_btn=0x7f080151;
+    public static final int select_dialog_listview=0x7f080152;
+    public static final int settings_toolbar_title=0x7f080153;
+    public static final int shortcut=0x7f080154;
+    public static final int showCustom=0x7f080155;
+    public static final int showHome=0x7f080156;
+    public static final int showTitle=0x7f080157;
+    public static final int signUp=0x7f080158;
+    public static final int signUp_toolbar_title=0x7f080159;
+    public static final int signup_button=0x7f08015a;
+    public static final int signup_form=0x7f08015b;
+    public static final int signup_layout=0x7f08015c;
+    public static final int signup_message=0x7f08015d;
+    public static final int signup_view=0x7f08015e;
+    public static final int small=0x7f08015f;
+    public static final int smallLabel=0x7f080160;
+    public static final int snackbar_action=0x7f080161;
+    public static final int snackbar_text=0x7f080162;
+    public static final int snap=0x7f080163;
+    public static final int space0=0x7f080164;
+    public static final int space1=0x7f080165;
+    public static final int space10=0x7f080166;
+    public static final int space11=0x7f080167;
+    public static final int space13=0x7f080168;
+    public static final int space2=0x7f080169;
+    public static final int space4=0x7f08016a;
+    public static final int space5=0x7f08016b;
+    public static final int space6=0x7f08016c;
+    public static final int space7=0x7f08016d;
+    public static final int space8=0x7f08016e;
+    public static final int space9=0x7f08016f;
+    public static final int spaceA=0x7f080170;
+    public static final int space_1=0x7f080171;
+    public static final int space_ChangePass_1=0x7f080172;
+    public static final int space_ChangePass_1A=0x7f080173;
+    public static final int space_ChangePass_2=0x7f080174;
+    public static final int space_ChangePass_3=0x7f080175;
+    public static final int space_Choose_MFA1=0x7f080176;
+    public static final int space_Choose_MFA2=0x7f080177;
+    public static final int space_MFA1=0x7f080178;
+    public static final int space_MFA2=0x7f080179;
+    public static final int space_MFA3=0x7f08017a;
+    public static final int space_Verify_1=0x7f08017b;
+    public static final int space_Verify_2=0x7f08017c;
+    public static final int space_Verify_2A=0x7f08017d;
+    public static final int space_Verify_3=0x7f08017e;
+    public static final int space_Verify_3A=0x7f08017f;
+    public static final int space_Verify_4=0x7f080180;
+    public static final int space_Verify_5=0x7f080181;
+    public static final int space_about_1=0x7f080182;
+    public static final int space_about_2=0x7f080183;
+    public static final int space_about_3=0x7f080184;
+    public static final int space_add_attr_1=0x7f080185;
+    public static final int space_add_attr_2=0x7f080186;
+    public static final int space_add_attr_3=0x7f080187;
+    public static final int space_add_attr_4=0x7f080188;
+    public static final int space_add_attr_5=0x7f080189;
+    public static final int space_confirm_1=0x7f08018a;
+    public static final int space_confirm_1A=0x7f08018b;
+    public static final int space_confirm_1B=0x7f08018c;
+    public static final int space_confirm_2=0x7f08018d;
+    public static final int space_confirm_3=0x7f08018e;
+    public static final int spacer=0x7f08018f;
+    public static final int spinnerAttributes=0x7f080190;
+    public static final int splashImage=0x7f080191;
+    public static final int splashText=0x7f080192;
+    public static final int split_action_bar=0x7f080193;
+    public static final int src_atop=0x7f080194;
+    public static final int src_in=0x7f080195;
+    public static final int src_over=0x7f080196;
+    public static final int standard=0x7f080197;
+    public static final int start=0x7f080198;
+    public static final int status_bar_latest_event_content=0x7f080199;
+    public static final int submenuarrow=0x7f08019a;
+    public static final int submit_area=0x7f08019b;
+    public static final int switchSettingsPhone=0x7f08019c;
+    public static final int switchTotpPhone=0x7f08019d;
+    public static final int tabMode=0x7f08019e;
+    public static final int tag_transition_group=0x7f08019f;
+    public static final int text=0x7f0801a0;
+    public static final int text2=0x7f0801a1;
+    public static final int textSpacerNoButtons=0x7f0801a2;
+    public static final int textSpacerNoTitle=0x7f0801a3;
+    public static final int textViewAbout=0x7f0801a4;
+    public static final int textViewAddAttrTitle=0x7f0801a5;
+    public static final int textViewAttrDataLabel=0x7f0801a6;
+    public static final int textViewAttrDataMessage=0x7f0801a7;
+    public static final int textViewChangePassCurrPassLabel=0x7f0801a8;
+    public static final int textViewChangePassCurrPassMessage=0x7f0801a9;
+    public static final int textViewChangePassMessage=0x7f0801aa;
+    public static final int textViewChangePassNewPassLabel=0x7f0801ab;
+    public static final int textViewChangePassNewPassMessage=0x7f0801ac;
+    public static final int textViewChangePassTitle=0x7f0801ad;
+    public static final int textViewChooseMFATitle=0x7f0801ae;
+    public static final int textViewConfirmCodeLabel=0x7f0801af;
+    public static final int textViewConfirmCodeMessage=0x7f0801b0;
+    public static final int textViewConfirmSubtext_1=0x7f0801b1;
+    public static final int textViewConfirmSubtext_2=0x7f0801b2;
+    public static final int textViewConfirmTitle=0x7f0801b3;
+    public static final int textViewConfirmUserIdLabel=0x7f0801b4;
+    public static final int textViewConfirmUserIdMessage=0x7f0801b5;
+    public static final int textViewDevicesMessage=0x7f0801b6;
+    public static final int textViewForgotPasswordCodeLabel=0x7f0801b7;
+    public static final int textViewForgotPasswordCodeMessage=0x7f0801b8;
+    public static final int textViewForgotPasswordMessage=0x7f0801b9;
+    public static final int textViewForgotPasswordTitle=0x7f0801ba;
+    public static final int textViewForgotPasswordUserIdLabel=0x7f0801bb;
+    public static final int textViewForgotPasswordUserIdMessage=0x7f0801bc;
+    public static final int textViewMFACodeLabel=0x7f0801bd;
+    public static final int textViewMFACodeMessage=0x7f0801be;
+    public static final int textViewMFASubTitle=0x7f0801bf;
+    public static final int textViewMFATitle=0x7f0801c0;
+    public static final int textViewMoreInfo=0x7f0801c1;
+    public static final int textViewNavMain=0x7f0801c2;
+    public static final int textViewNavUser=0x7f0801c3;
+    public static final int textViewNavUserSub=0x7f0801c4;
+    public static final int textViewNewPassPassLabel=0x7f0801c5;
+    public static final int textViewNewPassPassMessage=0x7f0801c6;
+    public static final int textViewRegEmailLabel=0x7f0801c7;
+    public static final int textViewRegEmailMessage=0x7f0801c8;
+    public static final int textViewRegGivenNameLabel=0x7f0801c9;
+    public static final int textViewRegGivenNameMessage=0x7f0801ca;
+    public static final int textViewRegMessage=0x7f0801cb;
+    public static final int textViewRegPhoneLabel=0x7f0801cc;
+    public static final int textViewRegPhoneMessage=0x7f0801cd;
+    public static final int textViewRegUserIdLabel=0x7f0801ce;
+    public static final int textViewRegUserIdMessage=0x7f0801cf;
+    public static final int textViewRegUserPasswordLabel=0x7f0801d0;
+    public static final int textViewSettingsMessage=0x7f0801d1;
+    public static final int textViewSettingsPhone=0x7f0801d2;
+    public static final int textViewSettingsTitle=0x7f0801d3;
+    public static final int textViewSimpleSpinnerItem=0x7f0801d4;
+    public static final int textViewTotpPhone=0x7f0801d5;
+    public static final int textViewUserDetailLabel=0x7f0801d6;
+    public static final int textViewUserDetailMessage=0x7f0801d7;
+    public static final int textViewUserForgotPassword=0x7f0801d8;
+    public static final int textViewUserIdLabel=0x7f0801d9;
+    public static final int textViewUserIdMessage=0x7f0801da;
+    public static final int textViewUserPasswordLabel=0x7f0801db;
+    public static final int textViewUserPasswordMessage=0x7f0801dc;
+    public static final int textViewUserRegPasswordMessage=0x7f0801dd;
+    public static final int textViewUserSignUp=0x7f0801de;
+    public static final int textViewVerifyCodeLabel=0x7f0801df;
+    public static final int textViewVerifyCodeMessage=0x7f0801e0;
+    public static final int textViewVerifyEmailText=0x7f0801e1;
+    public static final int textViewVerifyPhoneText=0x7f0801e2;
+    public static final int textViewVerifyTitle=0x7f0801e3;
+    public static final int textView_demoAnalytics_customEvent=0x7f0801e4;
+    public static final int textView_demoAnalytics_monetizationEvent=0x7f0801e5;
+    public static final int textView_demoIdentityUserID=0x7f0801e6;
+    public static final int textView_demoIdentityUserIDLabel=0x7f0801e7;
+    public static final int textView_demoIdentityUserName=0x7f0801e8;
+    public static final int text_demo_feature_description=0x7f0801e9;
+    public static final int text_demo_feature_description_heading=0x7f0801ea;
+    public static final int text_demo_feature_overview=0x7f0801eb;
+    public static final int text_demo_feature_powered_by=0x7f0801ec;
+    public static final int text_input_password_toggle=0x7f0801ed;
+    public static final int textinput_counter=0x7f0801ee;
+    public static final int textinput_error=0x7f0801ef;
+    public static final int time=0x7f0801f0;
+    public static final int title=0x7f0801f1;
+    public static final int titleDividerNoCustom=0x7f0801f2;
+    public static final int title_template=0x7f0801f3;
+    public static final int toolbar=0x7f0801f4;
+    public static final int toolbarChangePass=0x7f0801f5;
+    public static final int toolbar_AboutApp=0x7f0801f6;
+    public static final int toolbar_Devices=0x7f0801f7;
+    public static final int toolbar_NewPassword=0x7f0801f8;
+    public static final int toolbar_Register=0x7f0801f9;
+    public static final int toolbar_add_attribute=0x7f0801fa;
+    public static final int toolbar_choose_mfa=0x7f0801fb;
+    public static final int toolbar_layout=0x7f0801fc;
+    public static final int toolbar_mfa=0x7f0801fd;
+    public static final int toolbar_settings=0x7f0801fe;
+    public static final int toolbar_verify=0x7f0801ff;
+    public static final int top=0x7f080200;
+    public static final int topPanel=0x7f080201;
+    public static final int touch_outside=0x7f080202;
+    public static final int transition_current_scene=0x7f080203;
+    public static final int transition_layout_save=0x7f080204;
+    public static final int transition_position=0x7f080205;
+    public static final int transition_scene_layoutid_cache=0x7f080206;
+    public static final int transition_transform=0x7f080207;
+    public static final int uniform=0x7f080208;
+    public static final int unknown=0x7f080209;
+    public static final int up=0x7f08020a;
+    public static final int useLogo=0x7f08020b;
+    public static final int user_drawer_layout=0x7f08020c;
+    public static final int user_files_context_menu_delete=0x7f08020d;
+    public static final int user_files_context_menu_new_folder=0x7f08020e;
+    public static final int user_files_context_menu_upload=0x7f08020f;
+    public static final int user_pool_sign_in_view_id=0x7f080210;
+    public static final int user_update_attribute=0x7f080211;
+    public static final int verify_toolbar_title=0x7f080212;
+    public static final int viewReward=0x7f080213;
+    public static final int view_offset_helper=0x7f080214;
+    public static final int visible=0x7f080215;
+    public static final int webViewLicense=0x7f080216;
+    public static final int withText=0x7f080217;
+    public static final int wrap_content=0x7f080218;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -5404,9 +5056,9 @@ public final class R {
       0x7f030079, 0x7f030086, 0x7f03008a, 0x7f03008b, 
       0x7f030096, 0x7f0300b8, 0x7f0300b9, 0x7f0300bd, 
       0x7f0300be, 0x7f0300bf, 0x7f0300c4, 0x7f0300ca, 
-      0x7f030109, 0x7f030115, 0x7f030125, 0x7f030129, 
-      0x7f03012a, 0x7f030152, 0x7f030155, 0x7f030182, 
-      0x7f03018c
+      0x7f0300e5, 0x7f0300f1, 0x7f030101, 0x7f030105, 
+      0x7f030106, 0x7f03012e, 0x7f030131, 0x7f03015e, 
+      0x7f030168
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#background}
@@ -5877,7 +5529,7 @@ public final class R {
      */
     public static final int[] ActionMode={
       0x7f030031, 0x7f030032, 0x7f030056, 0x7f0300b8, 
-      0x7f030155, 0x7f03018c
+      0x7f030131, 0x7f030168
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#background}
@@ -6019,8 +5671,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-      0x010100f2, 0x7f030046, 0x7f030047, 0x7f030100, 
-      0x7f030101, 0x7f030112, 0x7f03013e, 0x7f030143
+      0x010100f2, 0x7f030046, 0x7f030047, 0x7f0300dc, 
+      0x7f0300dd, 0x7f0300ee, 0x7f03011a, 0x7f03011f
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -6212,7 +5864,7 @@ public final class R {
      * @see #AppBarLayoutStates_state_collapsible
      */
     public static final int[] AppBarLayoutStates={
-      0x7f03014c, 0x7f03014d
+      0x7f030128, 0x7f030129
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#state_collapsed}
@@ -6248,7 +5900,7 @@ public final class R {
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-      0x7f0300fc, 0x7f0300fd
+      0x7f0300d8, 0x7f0300d9
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_scrollFlags}
@@ -6300,7 +5952,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-      0x01010119, 0x7f030149, 0x7f030180, 0x7f030181
+      0x01010119, 0x7f030125, 0x7f03015c, 0x7f03015d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -6379,7 +6031,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-      0x01010142, 0x7f03017d, 0x7f03017e, 0x7f03017f
+      0x01010142, 0x7f030159, 0x7f03015a, 0x7f03015b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -6593,7 +6245,7 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
       0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-      0x7f03002f, 0x7f030030, 0x7f0300aa, 0x7f03016c
+      0x7f03002f, 0x7f030030, 0x7f0300aa, 0x7f030148
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -6966,19 +6618,19 @@ public final class R {
       0x7f030064, 0x7f030065, 0x7f030080, 0x7f030088, 
       0x7f030089, 0x7f03008c, 0x7f03008e, 0x7f030091, 
       0x7f030092, 0x7f030093, 0x7f030094, 0x7f030095, 
-      0x7f0300bd, 0x7f0300c3, 0x7f0300fe, 0x7f0300ff, 
-      0x7f030102, 0x7f030103, 0x7f030104, 0x7f030105, 
-      0x7f030106, 0x7f030107, 0x7f030108, 0x7f03011c, 
-      0x7f03011d, 0x7f03011e, 0x7f030124, 0x7f030126, 
-      0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 
-      0x7f030137, 0x7f030138, 0x7f030139, 0x7f03013a, 
-      0x7f030146, 0x7f030147, 0x7f030159, 0x7f03016d, 
-      0x7f03016e, 0x7f03016f, 0x7f030170, 0x7f030171, 
-      0x7f030172, 0x7f030173, 0x7f030174, 0x7f030175, 
-      0x7f030177, 0x7f03018e, 0x7f03018f, 0x7f030190, 
-      0x7f030191, 0x7f030197, 0x7f030199, 0x7f03019a, 
-      0x7f03019b, 0x7f03019c, 0x7f03019d, 0x7f03019e, 
-      0x7f03019f, 0x7f0301a0, 0x7f0301a1, 0x7f0301a2
+      0x7f0300bd, 0x7f0300c3, 0x7f0300da, 0x7f0300db, 
+      0x7f0300de, 0x7f0300df, 0x7f0300e0, 0x7f0300e1, 
+      0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300f8, 
+      0x7f0300f9, 0x7f0300fa, 0x7f030100, 0x7f030102, 
+      0x7f030109, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
+      0x7f030113, 0x7f030114, 0x7f030115, 0x7f030116, 
+      0x7f030122, 0x7f030123, 0x7f030135, 0x7f030149, 
+      0x7f03014a, 0x7f03014b, 0x7f03014c, 0x7f03014d, 
+      0x7f03014e, 0x7f03014f, 0x7f030150, 0x7f030151, 
+      0x7f030153, 0x7f03016a, 0x7f03016b, 0x7f03016c, 
+      0x7f03016d, 0x7f030173, 0x7f030175, 0x7f030176, 
+      0x7f030177, 0x7f030178, 0x7f030179, 0x7f03017a, 
+      0x7f03017b, 0x7f03017c, 0x7f03017d, 0x7f03017e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -8483,7 +8135,7 @@ public final class R {
      */
     public static final int[] BottomNavigationView={
       0x7f030096, 0x7f0300c8, 0x7f0300c9, 0x7f0300cc, 
-      0x7f03010e
+      0x7f0300ea
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#elevation}
@@ -8617,7 +8269,7 @@ public final class R {
      * @see #ButtonBarContainerTheme_metaButtonBarStyle
      */
     public static final int[] ButtonBarContainerTheme={
-      0x7f03010f, 0x7f030110
+      0x7f0300eb, 0x7f0300ec
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#metaButtonBarButtonStyle}
@@ -8913,8 +8565,8 @@ public final class R {
     public static final int[] CollapsingToolbarLayout={
       0x7f030059, 0x7f03005a, 0x7f03007f, 0x7f03009b, 
       0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f, 
-      0x7f0300a0, 0x7f0300a1, 0x7f030133, 0x7f030134, 
-      0x7f03014f, 0x7f030182, 0x7f030183, 0x7f03018d
+      0x7f0300a0, 0x7f0300a1, 0x7f03010f, 0x7f030110, 
+      0x7f03012b, 0x7f03015e, 0x7f03015f, 0x7f030169
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#collapsedTitleGravity}
@@ -9284,1519 +8936,6 @@ public final class R {
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
-     * Attributes that can be used with a ConstraintLayout_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.amazon.mysampleapp:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.amazon.mysampleapp:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.amazon.mysampleapp:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.amazon.mysampleapp:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.amazon.mysampleapp:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.amazon.mysampleapp:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.amazon.mysampleapp:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.amazon.mysampleapp:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.amazon.mysampleapp:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.amazon.mysampleapp:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.amazon.mysampleapp:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.amazon.mysampleapp:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.amazon.mysampleapp:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.amazon.mysampleapp:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.amazon.mysampleapp:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.amazon.mysampleapp:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.amazon.mysampleapp:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.amazon.mysampleapp:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.amazon.mysampleapp:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.amazon.mysampleapp:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.amazon.mysampleapp:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.amazon.mysampleapp:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.amazon.mysampleapp:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.amazon.mysampleapp:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.amazon.mysampleapp:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.amazon.mysampleapp:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.amazon.mysampleapp:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.amazon.mysampleapp:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.amazon.mysampleapp:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.amazon.mysampleapp:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.amazon.mysampleapp:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.amazon.mysampleapp:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.amazon.mysampleapp:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.amazon.mysampleapp:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.amazon.mysampleapp:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.amazon.mysampleapp:layout_goneMarginTop}</code></td><td></td></tr>
-     * </table>
-     * @see #ConstraintLayout_Layout_android_orientation
-     * @see #ConstraintLayout_Layout_android_maxWidth
-     * @see #ConstraintLayout_Layout_android_maxHeight
-     * @see #ConstraintLayout_Layout_android_minWidth
-     * @see #ConstraintLayout_Layout_android_minHeight
-     * @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
-     * @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
-     * @see #ConstraintLayout_Layout_layout_constraintBottom_creator
-     * @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
-     * @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
-     * @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
-     * @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
-     * @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
-     * @see #ConstraintLayout_Layout_layout_constraintGuide_begin
-     * @see #ConstraintLayout_Layout_layout_constraintGuide_end
-     * @see #ConstraintLayout_Layout_layout_constraintGuide_percent
-     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
-     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
-     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
-     * @see #ConstraintLayout_Layout_layout_constraintLeft_creator
-     * @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
-     * @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
-     * @see #ConstraintLayout_Layout_layout_constraintRight_creator
-     * @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
-     * @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
-     * @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
-     * @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
-     * @see #ConstraintLayout_Layout_layout_constraintTop_creator
-     * @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
-     * @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
-     * @see #ConstraintLayout_Layout_layout_constraintVertical_bias
-     * @see #ConstraintLayout_Layout_layout_constraintVertical_chainStyle
-     * @see #ConstraintLayout_Layout_layout_constraintVertical_weight
-     * @see #ConstraintLayout_Layout_layout_editor_absoluteX
-     * @see #ConstraintLayout_Layout_layout_editor_absoluteY
-     * @see #ConstraintLayout_Layout_layout_goneMarginBottom
-     * @see #ConstraintLayout_Layout_layout_goneMarginEnd
-     * @see #ConstraintLayout_Layout_layout_goneMarginLeft
-     * @see #ConstraintLayout_Layout_layout_goneMarginRight
-     * @see #ConstraintLayout_Layout_layout_goneMarginStart
-     * @see #ConstraintLayout_Layout_layout_goneMarginTop
-     */
-    public static final int[] ConstraintLayout_Layout={
-      0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-      0x01010140, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 
-      0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 
-      0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 
-      0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 
-      0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 
-      0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 
-      0x7f0300ec, 0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 
-      0x7f0300f0, 0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 
-      0x7f0300f5, 0x7f0300f6, 0x7f0300f7, 0x7f0300f8, 
-      0x7f0300f9
-    };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int ConstraintLayout_Layout_android_orientation=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxWidth
-     */
-    public static final int ConstraintLayout_Layout_android_maxWidth=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:maxHeight
-     */
-    public static final int ConstraintLayout_Layout_android_maxHeight=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minWidth
-     */
-    public static final int ConstraintLayout_Layout_android_minWidth=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minHeight
-     */
-    public static final int ConstraintLayout_Layout_android_minHeight=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBottom_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintDimensionRatio}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintDimensionRatio
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintEnd_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintEnd_toEndOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintEnd_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintEnd_toStartOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintGuide_begin}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintGuide_begin
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintGuide_end}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintGuide_end
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintGuide_percent}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintGuide_percent
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintHorizontal_bias}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintHorizontal_bias
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintHorizontal_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintHorizontal_chainStyle
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintHorizontal_weight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintHorizontal_weight
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintLeft_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintLeft_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintLeft_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintLeft_toLeftOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintLeft_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintLeft_toRightOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintRight_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintRight_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintRight_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintRight_toLeftOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintRight_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintRight_toRightOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintStart_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintStart_toEndOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintStart_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintStart_toStartOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintTop_creator}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintTop_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintTop_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintTop_toBottomOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintTop_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintTop_toTopOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintVertical_bias}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintVertical_bias
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintVertical_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintVertical_chainStyle
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintVertical_weight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintVertical_weight
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_editor_absoluteX}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_editor_absoluteX
-     */
-    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=33;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_editor_absoluteY}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_editor_absoluteY
-     */
-    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=34;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginBottom}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginBottom
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=35;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginEnd}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginEnd
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=36;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginLeft}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginLeft
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=37;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginRight}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginRight
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginRight=38;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginStart}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginStart
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginStart=39;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginTop}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginTop
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginTop=40;
-    /**
-     * Attributes that can be used with a ConstraintSet.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_orientation android:orientation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_id android:id}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_width android:layout_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_height android:layout_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.amazon.mysampleapp:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.amazon.mysampleapp:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.amazon.mysampleapp:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.amazon.mysampleapp:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.amazon.mysampleapp:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.amazon.mysampleapp:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.amazon.mysampleapp:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.amazon.mysampleapp:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.amazon.mysampleapp:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.amazon.mysampleapp:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.amazon.mysampleapp:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.amazon.mysampleapp:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.amazon.mysampleapp:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.amazon.mysampleapp:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.amazon.mysampleapp:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.amazon.mysampleapp:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.amazon.mysampleapp:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.amazon.mysampleapp:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.amazon.mysampleapp:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.amazon.mysampleapp:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.amazon.mysampleapp:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.amazon.mysampleapp:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.amazon.mysampleapp:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.amazon.mysampleapp:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.amazon.mysampleapp:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.amazon.mysampleapp:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.amazon.mysampleapp:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.amazon.mysampleapp:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.amazon.mysampleapp:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.amazon.mysampleapp:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.amazon.mysampleapp:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.amazon.mysampleapp:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.amazon.mysampleapp:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.amazon.mysampleapp:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.amazon.mysampleapp:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.amazon.mysampleapp:layout_goneMarginTop}</code></td><td></td></tr>
-     * </table>
-     * @see #ConstraintSet_android_orientation
-     * @see #ConstraintSet_android_id
-     * @see #ConstraintSet_android_visibility
-     * @see #ConstraintSet_android_layout_width
-     * @see #ConstraintSet_android_layout_height
-     * @see #ConstraintSet_android_layout_marginLeft
-     * @see #ConstraintSet_android_layout_marginTop
-     * @see #ConstraintSet_android_layout_marginRight
-     * @see #ConstraintSet_android_layout_marginBottom
-     * @see #ConstraintSet_android_layout_marginStart
-     * @see #ConstraintSet_android_layout_marginEnd
-     * @see #ConstraintSet_layout_constraintBaseline_creator
-     * @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
-     * @see #ConstraintSet_layout_constraintBottom_creator
-     * @see #ConstraintSet_layout_constraintBottom_toBottomOf
-     * @see #ConstraintSet_layout_constraintBottom_toTopOf
-     * @see #ConstraintSet_layout_constraintDimensionRatio
-     * @see #ConstraintSet_layout_constraintEnd_toEndOf
-     * @see #ConstraintSet_layout_constraintEnd_toStartOf
-     * @see #ConstraintSet_layout_constraintGuide_begin
-     * @see #ConstraintSet_layout_constraintGuide_end
-     * @see #ConstraintSet_layout_constraintGuide_percent
-     * @see #ConstraintSet_layout_constraintHorizontal_bias
-     * @see #ConstraintSet_layout_constraintHorizontal_chainStyle
-     * @see #ConstraintSet_layout_constraintHorizontal_weight
-     * @see #ConstraintSet_layout_constraintLeft_creator
-     * @see #ConstraintSet_layout_constraintLeft_toLeftOf
-     * @see #ConstraintSet_layout_constraintLeft_toRightOf
-     * @see #ConstraintSet_layout_constraintRight_creator
-     * @see #ConstraintSet_layout_constraintRight_toLeftOf
-     * @see #ConstraintSet_layout_constraintRight_toRightOf
-     * @see #ConstraintSet_layout_constraintStart_toEndOf
-     * @see #ConstraintSet_layout_constraintStart_toStartOf
-     * @see #ConstraintSet_layout_constraintTop_creator
-     * @see #ConstraintSet_layout_constraintTop_toBottomOf
-     * @see #ConstraintSet_layout_constraintTop_toTopOf
-     * @see #ConstraintSet_layout_constraintVertical_bias
-     * @see #ConstraintSet_layout_constraintVertical_chainStyle
-     * @see #ConstraintSet_layout_constraintVertical_weight
-     * @see #ConstraintSet_layout_editor_absoluteX
-     * @see #ConstraintSet_layout_editor_absoluteY
-     * @see #ConstraintSet_layout_goneMarginBottom
-     * @see #ConstraintSet_layout_goneMarginEnd
-     * @see #ConstraintSet_layout_goneMarginLeft
-     * @see #ConstraintSet_layout_goneMarginRight
-     * @see #ConstraintSet_layout_goneMarginStart
-     * @see #ConstraintSet_layout_goneMarginTop
-     */
-    public static final int[] ConstraintSet={
-      0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
-      0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
-      0x010100fa, 0x010103b5, 0x010103b6, 0x7f0300d5, 
-      0x7f0300d6, 0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 
-      0x7f0300da, 0x7f0300db, 0x7f0300dc, 0x7f0300dd, 
-      0x7f0300de, 0x7f0300df, 0x7f0300e0, 0x7f0300e1, 
-      0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 
-      0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 
-      0x7f0300ea, 0x7f0300eb, 0x7f0300ec, 0x7f0300ed, 
-      0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f2, 
-      0x7f0300f3, 0x7f0300f4, 0x7f0300f5, 0x7f0300f6, 
-      0x7f0300f7, 0x7f0300f8, 0x7f0300f9
-    };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int ConstraintSet_android_orientation=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#id}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:id
-     */
-    public static final int ConstraintSet_android_id=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>gone</td><td>2</td><td></td></tr>
-     * <tr><td>invisible</td><td>1</td><td></td></tr>
-     * <tr><td>visible</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:visibility
-     */
-    public static final int ConstraintSet_android_visibility=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_width
-     */
-    public static final int ConstraintSet_android_layout_width=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_height
-     */
-    public static final int ConstraintSet_android_layout_height=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginLeft
-     */
-    public static final int ConstraintSet_android_layout_marginLeft=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginTop
-     */
-    public static final int ConstraintSet_android_layout_marginTop=6;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginRight
-     */
-    public static final int ConstraintSet_android_layout_marginRight=7;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginBottom
-     */
-    public static final int ConstraintSet_android_layout_marginBottom=8;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginStart
-     */
-    public static final int ConstraintSet_android_layout_marginStart=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:layout_marginEnd
-     */
-    public static final int ConstraintSet_android_layout_marginEnd=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBottom_creator
-     */
-    public static final int ConstraintSet_layout_constraintBottom_creator=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintDimensionRatio}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintDimensionRatio
-     */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintEnd_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintEnd_toEndOf
-     */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintEnd_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintEnd_toStartOf
-     */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintGuide_begin}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintGuide_begin
-     */
-    public static final int ConstraintSet_layout_constraintGuide_begin=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintGuide_end}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintGuide_end
-     */
-    public static final int ConstraintSet_layout_constraintGuide_end=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintGuide_percent}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintGuide_percent
-     */
-    public static final int ConstraintSet_layout_constraintGuide_percent=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintHorizontal_bias}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintHorizontal_bias
-     */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintHorizontal_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintHorizontal_chainStyle
-     */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintHorizontal_weight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintHorizontal_weight
-     */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintLeft_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintLeft_creator
-     */
-    public static final int ConstraintSet_layout_constraintLeft_creator=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintLeft_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintLeft_toLeftOf
-     */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintLeft_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintLeft_toRightOf
-     */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintRight_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintRight_creator
-     */
-    public static final int ConstraintSet_layout_constraintRight_creator=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintRight_toLeftOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintRight_toLeftOf
-     */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintRight_toRightOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintRight_toRightOf
-     */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintStart_toEndOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintStart_toEndOf
-     */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintStart_toStartOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintStart_toStartOf
-     */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintTop_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintTop_creator
-     */
-    public static final int ConstraintSet_layout_constraintTop_creator=33;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintTop_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintTop_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=34;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintTop_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintTop_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=35;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintVertical_bias}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintVertical_bias
-     */
-    public static final int ConstraintSet_layout_constraintVertical_bias=36;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintVertical_chainStyle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>packed</td><td>2</td><td></td></tr>
-     * <tr><td>spread</td><td>0</td><td></td></tr>
-     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintVertical_chainStyle
-     */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=37;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_constraintVertical_weight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.amazon.mysampleapp:layout_constraintVertical_weight
-     */
-    public static final int ConstraintSet_layout_constraintVertical_weight=38;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_editor_absoluteX}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_editor_absoluteX
-     */
-    public static final int ConstraintSet_layout_editor_absoluteX=39;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_editor_absoluteY}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_editor_absoluteY
-     */
-    public static final int ConstraintSet_layout_editor_absoluteY=40;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginBottom}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginBottom
-     */
-    public static final int ConstraintSet_layout_goneMarginBottom=41;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginEnd}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginEnd
-     */
-    public static final int ConstraintSet_layout_goneMarginEnd=42;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginLeft}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginLeft
-     */
-    public static final int ConstraintSet_layout_goneMarginLeft=43;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginRight}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginRight
-     */
-    public static final int ConstraintSet_layout_goneMarginRight=44;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginStart
-     */
-    public static final int ConstraintSet_layout_goneMarginStart=45;
-    /**
-     * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#layout_goneMarginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.amazon.mysampleapp:layout_goneMarginTop
-     */
-    public static final int ConstraintSet_layout_goneMarginTop=46;
-    /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -10810,7 +8949,7 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-      0x7f0300cd, 0x7f03014e
+      0x7f0300cd, 0x7f03012a
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#keylines}
@@ -10864,7 +9003,7 @@ public final class R {
      */
     public static final int[] CoordinatorLayout_Layout={
       0x010100b3, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 
-      0x7f0300f1, 0x7f0300fa, 0x7f0300fb
+      0x7f0300d5, 0x7f0300d6, 0x7f0300d7
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -11016,7 +9155,7 @@ public final class R {
      * @see #DesignTheme_textColorError
      */
     public static final int[] DesignTheme={
-      0x7f03003e, 0x7f03003f, 0x7f030176
+      0x7f03003e, 0x7f03003f, 0x7f030152
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#bottomSheetDialogTheme}
@@ -11084,7 +9223,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
       0x7f030029, 0x7f03002a, 0x7f030036, 0x7f03005b, 
-      0x7f03008f, 0x7f0300b5, 0x7f030145, 0x7f030179
+      0x7f03008f, 0x7f0300b5, 0x7f030121, 0x7f030155
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#arrowHeadLength}
@@ -11214,8 +9353,8 @@ public final class R {
      */
     public static final int[] FloatingActionButton={
       0x7f030034, 0x7f030035, 0x7f03003c, 0x7f030096, 
-      0x7f0300a2, 0x7f0300a3, 0x7f030128, 0x7f030132, 
-      0x7f030196
+      0x7f0300a2, 0x7f0300a3, 0x7f030104, 0x7f03010e, 
+      0x7f030172
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#backgroundTint}
@@ -11660,37 +9799,6 @@ public final class R {
      */
     public static final int ForgotPasswordView_forgotPasswordViewBackgroundColor=0;
     /**
-     * Attributes that can be used with a LinearConstraintLayout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LinearConstraintLayout_android_orientation android:orientation}</code></td><td></td></tr>
-     * </table>
-     * @see #LinearConstraintLayout_android_orientation
-     */
-    public static final int[] LinearConstraintLayout={
-      0x010100c4
-    };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #LinearConstraintLayout} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int LinearConstraintLayout_android_orientation=0;
-    /**
      * Attributes that can be used with a LinearLayoutCompat.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -11719,8 +9827,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-      0x01010128, 0x7f03008b, 0x7f03008d, 0x7f03010d, 
-      0x7f03013c
+      0x01010128, 0x7f03008b, 0x7f03008d, 0x7f0300e9, 
+      0x7f030118
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -12008,7 +10116,7 @@ public final class R {
      * @see #MFAView_mfaViewBackgroundColor
      */
     public static final int[] MFAView={
-      0x7f030111
+      0x7f0300ed
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#mfaViewBackgroundColor}
@@ -12183,7 +10291,7 @@ public final class R {
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
       0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
       0x7f030028, 0x7f030073, 0x7f0300c0, 0x7f0300c1, 
-      0x7f030116, 0x7f03013b, 0x7f030192
+      0x7f0300f2, 0x7f030117, 0x7f03016e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -12502,8 +10610,8 @@ public final class R {
      */
     public static final int[] MenuView={
       0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-      0x0101012f, 0x01010130, 0x01010131, 0x7f030127, 
-      0x7f030150
+      0x0101012f, 0x01010130, 0x01010131, 0x7f030103, 
+      0x7f03012c
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -12646,7 +10754,7 @@ public final class R {
     public static final int[] NavigationView={
       0x010100d4, 0x010100dd, 0x0101011f, 0x7f030096, 
       0x7f0300b7, 0x7f0300c8, 0x7f0300c9, 0x7f0300cb, 
-      0x7f0300cc, 0x7f03010e
+      0x7f0300cc, 0x7f0300ea
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -12785,7 +10893,7 @@ public final class R {
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-      0x01010176, 0x010102c9, 0x7f030117
+      0x01010176, 0x010102c9, 0x7f0300f3
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -12836,7 +10944,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f03014b
+      0x7f030127
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#state_above_anchor}
@@ -12862,7 +10970,7 @@ public final class R {
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-      0x7f030118, 0x7f03011b
+      0x7f0300f4, 0x7f0300f7
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#paddingBottomNoButtons}
@@ -12924,7 +11032,7 @@ public final class R {
     public static final int[] RecyclerView={
       0x010100c4, 0x010100f1, 0x7f0300a4, 0x7f0300a5, 
       0x7f0300a6, 0x7f0300a7, 0x7f0300a8, 0x7f0300cf, 
-      0x7f030131, 0x7f030144, 0x7f03014a
+      0x7f03010d, 0x7f030120, 0x7f030126
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -13160,9 +11268,9 @@ public final class R {
     public static final int[] SearchView={
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
       0x7f030055, 0x7f030072, 0x7f030087, 0x7f0300b6, 
-      0x7f0300c2, 0x7f0300ce, 0x7f03012b, 0x7f03012c, 
-      0x7f030135, 0x7f030136, 0x7f030151, 0x7f030156, 
-      0x7f030198
+      0x7f0300c2, 0x7f0300ce, 0x7f030107, 0x7f030108, 
+      0x7f030111, 0x7f030112, 0x7f03012d, 0x7f030132, 
+      0x7f030174
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -13438,7 +11546,7 @@ public final class R {
      * @see #SignInButton_text
      */
     public static final int[] SignInButton={
-      0x7f03004c, 0x7f03016b
+      0x7f03004c, 0x7f030147
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#button_style}
@@ -13481,7 +11589,7 @@ public final class R {
      * @see #SignInView_signInImageResId
      */
     public static final int[] SignInView={
-      0x7f03013f, 0x7f030140
+      0x7f03011b, 0x7f03011c
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#signInBackgroundColor}
@@ -13513,7 +11621,7 @@ public final class R {
      * @see #SignUpConfirmView_signUpConfirmViewBackgroundColor
      */
     public static final int[] SignUpConfirmView={
-      0x7f030141
+      0x7f03011d
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#signUpConfirmViewBackgroundColor}
@@ -13536,7 +11644,7 @@ public final class R {
      * @see #SignUpView_signUpViewBackgroundColor
      */
     public static final int[] SignUpView={
-      0x7f030142
+      0x7f03011e
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#signUpViewBackgroundColor}
@@ -13563,7 +11671,7 @@ public final class R {
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-      0x0101011f, 0x7f030096, 0x7f03010b
+      0x0101011f, 0x7f030096, 0x7f0300e7
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -13625,7 +11733,7 @@ public final class R {
      */
     public static final int[] Spinner={
       0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-      0x7f030125
+      0x7f030101
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -13739,10 +11847,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f03013d, 
-      0x7f030148, 0x7f030157, 0x7f030158, 0x7f03015a, 
-      0x7f03017a, 0x7f03017b, 0x7f03017c, 0x7f030193, 
-      0x7f030194, 0x7f030195
+      0x01010124, 0x01010125, 0x01010142, 0x7f030119, 
+      0x7f030124, 0x7f030133, 0x7f030134, 0x7f030136, 
+      0x7f030156, 0x7f030157, 0x7f030158, 0x7f03016f, 
+      0x7f030170, 0x7f030171
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -14017,10 +12125,10 @@ public final class R {
      * @see #TabLayout_tabTextColor
      */
     public static final int[] TabLayout={
-      0x7f03015b, 0x7f03015c, 0x7f03015d, 0x7f03015e, 
-      0x7f03015f, 0x7f030160, 0x7f030161, 0x7f030162, 
-      0x7f030163, 0x7f030164, 0x7f030165, 0x7f030166, 
-      0x7f030167, 0x7f030168, 0x7f030169, 0x7f03016a
+      0x7f030137, 0x7f030138, 0x7f030139, 0x7f03013a, 
+      0x7f03013b, 0x7f03013c, 0x7f03013d, 0x7f03013e, 
+      0x7f03013f, 0x7f030140, 0x7f030141, 0x7f030142, 
+      0x7f030143, 0x7f030144, 0x7f030145, 0x7f030146
     };
     /**
      * <p>This symbol is the offset where the {@link com.amazon.mysampleapp.R.attr#tabBackground}
@@ -14269,7 +12377,7 @@ public final class R {
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
       0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
       0x01010163, 0x01010164, 0x010103ac, 0x7f0300aa, 
-      0x7f03016c
+      0x7f030148
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -14482,8 +12590,8 @@ public final class R {
     public static final int[] TextInputLayout={
       0x0101009a, 0x01010150, 0x7f030082, 0x7f030083, 
       0x7f030084, 0x7f030085, 0x7f030097, 0x7f030098, 
-      0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 0x7f03011f, 
-      0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123
+      0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 0x7f0300fb, 
+      0x7f0300fc, 0x7f0300fd, 0x7f0300fe, 0x7f0300ff
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -14740,12 +12848,12 @@ public final class R {
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f030045, 0x7f030057, 
       0x7f030058, 0x7f030074, 0x7f030075, 0x7f030076, 
-      0x7f030077, 0x7f030078, 0x7f030079, 0x7f030109, 
-      0x7f03010a, 0x7f03010c, 0x7f030113, 0x7f030114, 
-      0x7f030125, 0x7f030152, 0x7f030153, 0x7f030154, 
-      0x7f030182, 0x7f030184, 0x7f030185, 0x7f030186, 
-      0x7f030187, 0x7f030188, 0x7f030189, 0x7f03018a, 
-      0x7f03018b
+      0x7f030077, 0x7f030078, 0x7f030079, 0x7f0300e5, 
+      0x7f0300e6, 0x7f0300e8, 0x7f0300ef, 0x7f0300f0, 
+      0x7f030101, 0x7f03012e, 0x7f03012f, 0x7f030130, 
+      0x7f03015e, 0x7f030160, 0x7f030161, 0x7f030162, 
+      0x7f030163, 0x7f030164, 0x7f030165, 0x7f030166, 
+      0x7f030167
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -15139,8 +13247,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-      0x01010000, 0x010100da, 0x7f030119, 0x7f03011a, 
-      0x7f030178
+      0x01010000, 0x010100da, 0x7f0300f5, 0x7f0300f6, 
+      0x7f030154
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}

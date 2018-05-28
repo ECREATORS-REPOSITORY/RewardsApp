@@ -159,13 +159,13 @@ public final class R {
         public static final int never_display = 0x7f080116;
         public static final int normal = 0x7f08011d;
         public static final int open_graph = 0x7f080130;
-        public static final int page = 0x7f080132;
-        public static final int progress_bar = 0x7f080138;
-        public static final int right = 0x7f08013d;
-        public static final int small = 0x7f080160;
-        public static final int standard = 0x7f08019a;
-        public static final int top = 0x7f080203;
-        public static final int unknown = 0x7f08020c;
+        public static final int page = 0x7f080131;
+        public static final int progress_bar = 0x7f080136;
+        public static final int right = 0x7f08013c;
+        public static final int small = 0x7f08015f;
+        public static final int standard = 0x7f080197;
+        public static final int top = 0x7f080200;
+        public static final int unknown = 0x7f080209;
     }
     public static final class layout {
         private layout() {}

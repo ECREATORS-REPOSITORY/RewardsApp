@@ -14,10 +14,10 @@ public final class R {
 
         public static final int button_style = 0x7f03004c;
         public static final int forgotPasswordViewBackgroundColor = 0x7f0300b4;
-        public static final int mfaViewBackgroundColor = 0x7f030111;
-        public static final int signUpConfirmViewBackgroundColor = 0x7f030141;
-        public static final int signUpViewBackgroundColor = 0x7f030142;
-        public static final int text = 0x7f03016b;
+        public static final int mfaViewBackgroundColor = 0x7f0300ed;
+        public static final int signUpConfirmViewBackgroundColor = 0x7f03011d;
+        public static final int signUpViewBackgroundColor = 0x7f03011e;
+        public static final int text = 0x7f030147;
     }
     public static final class dimen {
         private dimen() {}
@@ -34,13 +34,13 @@ public final class R {
 
         public static final int large = 0x7f0800e4;
         public static final int mfa_button = 0x7f080100;
-        public static final int signup_button = 0x7f08015b;
-        public static final int signup_form = 0x7f08015c;
-        public static final int signup_layout = 0x7f08015d;
-        public static final int signup_message = 0x7f08015e;
-        public static final int signup_view = 0x7f08015f;
-        public static final int small = 0x7f080160;
-        public static final int user_pool_sign_in_view_id = 0x7f080213;
+        public static final int signup_button = 0x7f08015a;
+        public static final int signup_form = 0x7f08015b;
+        public static final int signup_layout = 0x7f08015c;
+        public static final int signup_message = 0x7f08015d;
+        public static final int signup_view = 0x7f08015e;
+        public static final int small = 0x7f08015f;
+        public static final int user_pool_sign_in_view_id = 0x7f080210;
     }
     public static final class layout {
         private layout() {}
@@ -105,14 +105,14 @@ public final class R {
 
         public static final int[] ForgotPasswordView = { 0x7f0300b4 };
         public static final int ForgotPasswordView_forgotPasswordViewBackgroundColor = 0;
-        public static final int[] MFAView = { 0x7f030111 };
+        public static final int[] MFAView = { 0x7f0300ed };
         public static final int MFAView_mfaViewBackgroundColor = 0;
-        public static final int[] SignInButton = { 0x7f03004c, 0x7f03016b };
+        public static final int[] SignInButton = { 0x7f03004c, 0x7f030147 };
         public static final int SignInButton_button_style = 0;
         public static final int SignInButton_text = 1;
-        public static final int[] SignUpConfirmView = { 0x7f030141 };
+        public static final int[] SignUpConfirmView = { 0x7f03011d };
         public static final int SignUpConfirmView_signUpConfirmViewBackgroundColor = 0;
-        public static final int[] SignUpView = { 0x7f030142 };
+        public static final int[] SignUpView = { 0x7f03011e };
         public static final int SignUpView_signUpViewBackgroundColor = 0;
     }
 }

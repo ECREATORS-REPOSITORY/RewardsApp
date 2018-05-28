@@ -98,22 +98,22 @@ public final class R {
         public static final int notification_background = 0x7f08012d;
         public static final int notification_main_column = 0x7f08012e;
         public static final int notification_main_column_container = 0x7f08012f;
-        public static final int parent_matrix = 0x7f080136;
-        public static final int right_icon = 0x7f08013e;
-        public static final int right_side = 0x7f08013f;
-        public static final int save_image_matrix = 0x7f080140;
-        public static final int save_non_transition_alpha = 0x7f080141;
-        public static final int save_scale_type = 0x7f080142;
-        public static final int tag_transition_group = 0x7f0801a2;
-        public static final int text = 0x7f0801a3;
-        public static final int text2 = 0x7f0801a4;
-        public static final int time = 0x7f0801f3;
-        public static final int title = 0x7f0801f4;
-        public static final int transition_current_scene = 0x7f080206;
-        public static final int transition_layout_save = 0x7f080207;
-        public static final int transition_position = 0x7f080208;
-        public static final int transition_scene_layoutid_cache = 0x7f080209;
-        public static final int transition_transform = 0x7f08020a;
+        public static final int parent_matrix = 0x7f080134;
+        public static final int right_icon = 0x7f08013d;
+        public static final int right_side = 0x7f08013e;
+        public static final int save_image_matrix = 0x7f08013f;
+        public static final int save_non_transition_alpha = 0x7f080140;
+        public static final int save_scale_type = 0x7f080141;
+        public static final int tag_transition_group = 0x7f08019f;
+        public static final int text = 0x7f0801a0;
+        public static final int text2 = 0x7f0801a1;
+        public static final int time = 0x7f0801f0;
+        public static final int title = 0x7f0801f1;
+        public static final int transition_current_scene = 0x7f080203;
+        public static final int transition_layout_save = 0x7f080204;
+        public static final int transition_position = 0x7f080205;
+        public static final int transition_scene_layoutid_cache = 0x7f080206;
+        public static final int transition_transform = 0x7f080207;
     }
     public static final class integer {
         private integer() {}

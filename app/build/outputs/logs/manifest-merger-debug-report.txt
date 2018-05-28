@@ -5,28 +5,27 @@ INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-1
 INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
 INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
 MERGED from [com.android.support:design:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d432e4b0c492d02d301a6830c1da7a2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:21:1-39:12
 MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:2:1-10:80
 MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:2:1-21:80
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\e61673ec8bcca10b6e58f408db303266\AndroidManifest.xml:2:1-4:80
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:21:1-39:12
 MERGED from [com.android.support:multidex:1.0.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\9ad2104c0951909cb1c6cb3e38a990cf\AndroidManifest.xml:16:1-19:12
 MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\70642368e000cb3530902c006088ea8b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3f50bfe1bc5bfa560e772e94217b5f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\feafabea3f7403184602b953e6b91554\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9fdc3dd98944fcc5771b303089215cd8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\74668754ed04804719c0869b263d43b9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be391c07d1f16d13e7c047e49a1acb71\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cc95c188cb4e0a5756da625a15cc95e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\492faede65ab05eb96d5636fb4e12943\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e3699f3ddbab38adb9877469f19d6794\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5476479dce057889b0cc8934dbd8556d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\609b123e28046cf81c9fa81306cdf1c3\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3d95f08f53d5a37e04060dff5b933904\AndroidManifest.xml:17:1-22:12
 INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
 INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:3:40-134:10
@@ -77,14 +76,12 @@ ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:9:435-79
 		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:9:452-507
 application
 ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml:16:516-132:18
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:28:5-37:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:28:5-37:19
 MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:7:5-9:19
 MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:7:5-9:19
 MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:8:6-20:20
 MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:8:6-20:20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:28:5-37:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:28:5-37:19
 MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:22:5-20
@@ -317,18 +314,14 @@ INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d432e4b0c492d02d301a6830c1da7a2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d432e4b0c492d02d301a6830c1da7a2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:24:5-26:41
 MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:10:1-69
 MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:10:1-69
 MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:21:1-69
 MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:21:1-69
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\e61673ec8bcca10b6e58f408db303266\AndroidManifest.xml:4:1-69
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-core-2.6.20.aar\e61673ec8bcca10b6e58f408db303266\AndroidManifest.xml:4:1-69
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.0-beta3.aar\7b26d5135d2c6d5a795c157232af90c2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:multidex:1.0.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\9ad2104c0951909cb1c6cb3e38a990cf\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:multidex:1.0.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\multidex-1.0.0.aar\9ad2104c0951909cb1c6cb3e38a990cf\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:customtabs:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\customtabs-23.4.0.aar\74f0ca805500ec0caf72357faf618872\AndroidManifest.xml:20:5-44
@@ -337,6 +330,12 @@ MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Akhil.JARVIS\.gradl
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\70642368e000cb3530902c006088ea8b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3f50bfe1bc5bfa560e772e94217b5f8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3f50bfe1bc5bfa560e772e94217b5f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ba6d6c78718865fdeae086d79eb70f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\feafabea3f7403184602b953e6b91554\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\feafabea3f7403184602b953e6b91554\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9fdc3dd98944fcc5771b303089215cd8\AndroidManifest.xml:20:5-44
@@ -347,20 +346,16 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Akhil.JARVI
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\be391c07d1f16d13e7c047e49a1acb71\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cc95c188cb4e0a5756da625a15cc95e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cc95c188cb4e0a5756da625a15cc95e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b70438d0e995f49d28ef1eafad3d7991\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\492faede65ab05eb96d5636fb4e12943\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\492faede65ab05eb96d5636fb4e12943\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e3699f3ddbab38adb9877469f19d6794\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e3699f3ddbab38adb9877469f19d6794\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\d27cf6865409695ac885570d3f49f0f6\AndroidManifest.xml:20:5-43
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5476479dce057889b0cc8934dbd8556d\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5476479dce057889b0cc8934dbd8556d\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\609b123e28046cf81c9fa81306cdf1c3\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\609b123e28046cf81c9fa81306cdf1c3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\25c2dbbce4c2f52c664d3c920ecb787b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3d95f08f53d5a37e04060dff5b933904\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3d95f08f53d5a37e04060dff5b933904\AndroidManifest.xml:20:5-44
 INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
@@ -373,6 +368,20 @@ INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 		ADDED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
 		INJECTED from F:\mysampleapp\MySampleApp\app\src\main\AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:29:9-32:75
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:34:13-58
 activity#com.amazonaws.mobile.auth.ui.SignInActivity
 ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-ui-2.6.20.aar\f3d2a0523f4cea1008c29616655c683d\AndroidManifest.xml:8:9-234
 	android:screenOrientation
@@ -423,17 +432,3 @@ ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.
 		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:20-90
 	android:name
 		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.20] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\aws-android-sdk-auth-userpools-2.6.20.aar\80907f0764bc8997a1fc9357e64d5e1f\AndroidManifest.xml:18:146-218
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:29:9-32:75
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:31:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:32:13-72
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:30:13-57
-activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:33:9-36:20
-	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:35:13-36
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.12.0] C:\Users\Akhil.JARVIS\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.12.0.aar\3db56bb341337e1b04c9551a14f87ccf\AndroidManifest.xml:34:13-58

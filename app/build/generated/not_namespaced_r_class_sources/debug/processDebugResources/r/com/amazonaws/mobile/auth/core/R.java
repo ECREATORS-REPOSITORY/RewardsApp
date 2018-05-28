@@ -13,13 +13,13 @@ public final class R {
         private attr() {}
 
         public static final int button_style = 0x7f03004c;
-        public static final int text = 0x7f03016b;
+        public static final int text = 0x7f030147;
     }
     public static final class id {
         private id() {}
 
         public static final int large = 0x7f0800e4;
-        public static final int small = 0x7f080160;
+        public static final int small = 0x7f08015f;
     }
     public static final class string {
         private string() {}
@@ -29,7 +29,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] SignInButton = { 0x7f03004c, 0x7f03016b };
+        public static final int[] SignInButton = { 0x7f03004c, 0x7f030147 };
         public static final int SignInButton_button_style = 0;
         public static final int SignInButton_text = 1;
     }

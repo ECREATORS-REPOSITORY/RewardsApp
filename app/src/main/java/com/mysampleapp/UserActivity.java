@@ -1,6 +1,8 @@
 
 package com.mysampleapp;
 
+//import org.apache.http.client.ResponseHandler;
+
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,7 +13,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.view.menu.ShowableListMenu;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
@@ -24,6 +25,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.amazonaws.auth.AWSStaticCredentialsProvider;
+import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserAttributes;
@@ -33,13 +36,41 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
+import com.amazonaws.regions.Regions;
+import com.amazonaws.services.lambda.AWSLambda;
+import com.amazonaws.services.lambda.AWSLambdaClient;
+import com.amazonaws.services.lambda.AWSLambdaClientBuilder;
+import com.amazonaws.services.lambda.model.InvokeRequest;
+import com.amazonaws.services.lambda.model.InvokeResult;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserActivity extends AppCompatActivity {
-    private final String TAG="UserActivity";
 
+public class UserActivity extends AppCompatActivity {
+
+    protected static String TAG1 = "JSONServerNetworkUtil";
+
+    public static final String PARAM_SESSION_ID = "sessid";
+    public static final String PARAM_USERNAME = "name";
+    public static final String PARAM_PASSWORD = "pass";
+
+    public static final int REGISTRATION_TIMEOUT = 30 * 1000; // ms
+
+    public static final String BASE_URL = "https://gcifiqyy8c.execute-api.ap-south-1.amazonaws.com/Testing";
+
+    public static final String CONNECT_URI = BASE_URL + "/system/connect.json";
+    public static final String AUTH_URI = BASE_URL;
+
+
+  //  protected static HttpClient mHttpClient;
+    protected static String mSessId;
+
+    private final String TAG="UserActivity";
     private NavigationView nDrawer;
     private DrawerLayout mDrawer;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -85,8 +116,47 @@ public class UserActivity extends AppCompatActivity {
         View navigationHeader = nDrawer.getHeaderView(0);
         TextView navHeaderSubTitle = (TextView) navigationHeader.findViewById(R.id.textViewNavUserSub);
         navHeaderSubTitle.setText(username);
-    }
+       // Button bot=findViewById(R.id.viewReward);
+        //bot.setOnClickListener("");
 
+    }
+    public void viewRewardHandler(View target) {
+        // Do stuff
+        //Toast.makeText("","inside view rewards");
+        //prepareAndSendHttpPost(AUTH_URI,NULL);
+       // JSONObject json = prepareAndSendHttpPost(AUTH_URI, null);
+        AWSLambdaClient client = new AWSLambdaClient();
+        //client.withRegion(Regions.fromName(""));
+        //client.reg
+        InvokeRequest invokeRequest = new InvokeRequest()
+                .withFunctionName("LoadRewardData");
+        InvokeResult invokeResult = null;
+
+        BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAI22W7JDQIUEHNTQA", "pkz1p18otWgidgspDdubKphEX53/09WMyZf793P+");
+
+        AWSLambda awsLambda = AWSLambdaClientBuilder.standard()
+                .withRegion(Regions.AP_SOUTH_1)
+                .withCredentials(new AWSStaticCredentialsProvider(awsCreds)).build();
+        //Reques
+        //AWSREQ
+        try {
+            invokeResult = awsLambda.invoke(invokeRequest);
+        }
+        catch (Exception e) {
+            System.out.println(e);
+        }
+
+        System.out.println(invokeResult.getStatusCode());
+/*
+        InvokeRequest request = new InvokeRequest();
+        request.withFunctionName(functionName).withPayload(payload);
+        InvokeResult invoke = client.invoke(request);
+        System.out.println("Result invoking " + functionName + ": " + invoke);*/
+
+        Intent aboutAppActivity2 = new Intent(this, AboutApp.class);
+        startActivity(aboutAppActivity2);
+
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -208,6 +278,10 @@ public class UserActivity extends AppCompatActivity {
                 // For the inquisitive
                 Intent aboutAppActivity = new Intent(this, AboutApp.class);
                 startActivity(aboutAppActivity);
+                break;
+            case R.id.viewReward:
+                Intent aboutAppActivity2 = new Intent(this, AboutApp.class);
+                startActivity(aboutAppActivity2);
                 break;
         }
     }
@@ -521,4 +595,86 @@ public class UserActivity extends AppCompatActivity {
         setResult(RESULT_OK, intent);
         finish();
     }
+
+
+
+
+
+  /*  protected static JSONObject prepareAndSendHttpPost(String URI, ArrayList<NameValuePair> params){return null;} /*{
+        Http http = HttpFactory.create(null);
+        http.post("http://example.com/users")
+                .data("John")
+                .handler(new ResponseHandler<Void>() {
+                    @Override
+                    public void success(Void ignore, HttpResponse response) {
+                    }
+
+                    @Override
+                    public void error(String message, HttpResponse response) {
+                    }
+
+                    @Override
+                    public void failure(NetworkError error) {
+                    }
+
+                    @Override
+                    public void complete() {
+                    }
+                }).execute();
+        return null;
+
+    }*/
+/*
+    protected static JSONObject decodeJSONResponse(HttpResponse resp) {
+
+        InputStream is = null;
+        try {
+            is = resp.getEntity().getContent();
+        }
+        catch (IOException e) {
+            Log.d(TAG1, "unable to get content from response entity");
+            e.printStackTrace();
+            return null;
+        }
+
+        String in = convertStreamToString(is);
+
+        JSONObject json = null;
+        try {
+            json = new JSONObject(in);
+        }
+        catch (JSONException e) {
+            Log.d(TAG1, "could not decode JSON response from: "+in);
+        }
+
+        return json;
+    }*/
+
+    protected static String convertStreamToString(InputStream is) {
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+        StringBuilder sb = new StringBuilder();
+
+        String line = null;
+        try {
+            while ((line = reader.readLine()) != null) {
+                sb.append(line + "\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return sb.toString();
+    }
+
+
+
+
 }
+
+
