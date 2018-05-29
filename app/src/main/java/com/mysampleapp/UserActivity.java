@@ -25,8 +25,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserAttributes;
@@ -36,12 +34,6 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
-import com.amazonaws.regions.Regions;
-import com.amazonaws.services.lambda.AWSLambda;
-import com.amazonaws.services.lambda.AWSLambdaClient;
-import com.amazonaws.services.lambda.AWSLambdaClientBuilder;
-import com.amazonaws.services.lambda.model.InvokeRequest;
-import com.amazonaws.services.lambda.model.InvokeResult;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -125,7 +117,7 @@ public class UserActivity extends AppCompatActivity {
         //Toast.makeText("","inside view rewards");
         //prepareAndSendHttpPost(AUTH_URI,NULL);
        // JSONObject json = prepareAndSendHttpPost(AUTH_URI, null);
-        AWSLambdaClient client = new AWSLambdaClient();
+       /* AWSLambdaClient client = new AWSLambdaClient();
         //client.withRegion(Regions.fromName(""));
         //client.reg
         InvokeRequest invokeRequest = new InvokeRequest()
@@ -146,7 +138,7 @@ public class UserActivity extends AppCompatActivity {
             System.out.println(e);
         }
 
-        System.out.println(invokeResult.getStatusCode());
+        System.out.println(invokeResult.getStatusCode());*/
 /*
         InvokeRequest request = new InvokeRequest();
         request.withFunctionName(functionName).withPayload(payload);
