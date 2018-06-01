@@ -15,7 +15,7 @@
     <string name="title_activity_item_detail">Item Detail</string>
     <string name="title_activity_item_list">Item List</string>
     //
-    <string name="title_activity_main">Help</string>
+    <string name="title_activity_main">Rewards</string>
     <string name="button_text_sign_in">SIGN IN</string>
     <string name="button_text_sign_out">SIGN OUT</string>
 

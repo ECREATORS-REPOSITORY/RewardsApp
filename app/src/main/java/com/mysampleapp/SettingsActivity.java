@@ -54,7 +54,7 @@ public class SettingsActivity extends AppCompatActivity {
     private Switch totpSwitch;
     private Button totpButton;
 
-    private Map<String, String> settings;
+    private Map <String, String> settings;
     private CognitoUserSettings newSettings;
 
     private ProgressDialog waitDialog;
@@ -79,7 +79,7 @@ public class SettingsActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                exit();
+//                exit();
             }
         });
 
@@ -96,12 +96,12 @@ public class SettingsActivity extends AppCompatActivity {
         smsSwitch = (Switch) findViewById(R.id.switchSettingsPhone);
         totpSwitch = (Switch) findViewById(R.id.switchTotpPhone);
 
-        if(smsSwitch != null) {
+        if (smsSwitch != null) {
             smsSwitch.setClickable(true);
             smsSwitch.setChecked(false);
         }
 
-        if(totpSwitch != null) {
+        if (totpSwitch != null) {
             totpSwitch.setClickable(true);
             totpSwitch.setChecked(false);
         }
@@ -110,15 +110,14 @@ public class SettingsActivity extends AppCompatActivity {
 
         settings = AppHelper.getUserDetails().getSettings().getSettings();
 
-        if(settings != null) {
-            if(settings.containsKey("phone_number")) {
+        if (settings != null) {
+            if (settings.containsKey("phone_number")) {
                 smsSwitch.setClickable(true);
-                if(settings.get("phone_number").contains("sms") || settings.get("phone_number").contains("SMS")) {
+                if (settings.get("phone_number").contains("sms") || settings.get("phone_number").contains("SMS")) {
                     smsSwitch.setChecked(true);
                     smsSwitch.setText("Enabled");
                     smsSwitch.setTextColor(Color.parseColor("#37A51C"));
-                }
-                else {
+                } else {
                     smsSwitch.setChecked(false);
                     smsSwitch.setText("Disabled");
                     smsSwitch.setTextColor(Color.parseColor("#E94700"));
@@ -143,7 +142,7 @@ public class SettingsActivity extends AppCompatActivity {
                     smsMfaSettings.setEnabled(false);
                     smsMfaSettings.setPreferred(false);
                 }
-                List<CognitoMfaSettings> settings = new ArrayList<CognitoMfaSettings>();
+                List <CognitoMfaSettings> settings = new ArrayList <CognitoMfaSettings>();
                 settings.add(smsMfaSettings);
                 AppHelper.getPool().getUser(AppHelper.getCurrUser()).setUserMfaSettingsInBackground(settings, updateSettingHandler);
             }
@@ -165,7 +164,7 @@ public class SettingsActivity extends AppCompatActivity {
                     totpMfaSettings.setEnabled(false);
                     totpMfaSettings.setPreferred(false);
                 }
-                List<CognitoMfaSettings> settings = new ArrayList<CognitoMfaSettings>();
+                List <CognitoMfaSettings> settings = new ArrayList <CognitoMfaSettings>();
                 settings.add(totpMfaSettings);
                 AppHelper.getPool().getUser(AppHelper.getCurrUser()).setUserMfaSettingsInBackground(settings, updatesMFASettingsHandler);
             }
@@ -265,7 +264,7 @@ public class SettingsActivity extends AppCompatActivity {
     };
 
     private void toggleSwitch() {
-        if(smsSwitch.isChecked()) {
+        if (smsSwitch.isChecked()) {
             smsSwitch.setText("Enabled");
             smsSwitch.setTextColor(Color.parseColor("#37A51C"));
         } else {
@@ -275,7 +274,7 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     private void toggleTotpSwitch() {
-        if(totpSwitch.isChecked()) {
+        if (totpSwitch.isChecked()) {
             totpSwitch.setText("Enabled");
             totpSwitch.setTextColor(Color.parseColor("#37A51C"));
         } else {
@@ -313,8 +312,7 @@ public class SettingsActivity extends AppCompatActivity {
     private void closeWaitDialog() {
         try {
             waitDialog.dismiss();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             //
         }
     }
@@ -325,7 +323,7 @@ public class SettingsActivity extends AppCompatActivity {
         layout.setOrientation(LinearLayout.VERTICAL);
 
         builder.setTitle(continuation.getParameters().get("secretKey"));
-        Log.d(TAG, " -- Secret Key fot TOTP: "+continuation.getParameters().get("secretKey"));
+        Log.d(TAG, " -- Secret Key fot TOTP: " + continuation.getParameters().get("secretKey"));
 
         final EditText input = new EditText(SettingsActivity.this);
         input.setText("");
@@ -346,46 +344,47 @@ public class SettingsActivity extends AppCompatActivity {
         input.requestFocus();
         builder.setView(layout);
 
-        builder.setNeutralButton("Verify", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                try {
-                    String code = input.getText().toString();
-                    String name = friendlyname.getText().toString();
-                    if(!StringUtils.isBlank(code)) {
-                        if (StringUtils.isBlank(name)) {
-                            name = "Yet another TOTP generator";
-                        }
-                        // Totp
-                        continuation.setVerificationResponse(code, name);
-                        continuation.continueTask();
-                        userDialog.dismiss();
-                        showWaitDialog("Completing TOTP registration...");
-                    }
-
-                } catch (Exception e) {
-                    // Log failure
-                }
-            }
-        }).setPositiveButton("Cancel", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                try {
-                    userDialog.dismiss();
-                    totpSwitch.setChecked(false);
-                } catch (Exception e) {
-                    // Log failure
-                }
-            }
-        });
-        userDialog = builder.create();
-        userDialog.show();
-    }
-
-    private void exit() {
-        Intent intent = new Intent();
-        intent.putExtra("refresh",settingsChanged);
-        setResult(RESULT_OK, intent);
-        finish();
+        // builder.setNeutralButton("Verify", new DialogInterface.OnClickListener() {
+        //   @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                try {
+//                    String code = input.getText().toString();
+//                    String name = friendlyname.getText().toString();
+//                   // if(!StringUtils.isBlank(code)) {
+//                     //   if (StringUtils.isBlank(name)) {
+//                            name = "Yet another TOTP generator";
+//                        }
+//                        // Totp
+//                       // continuation.setVerificationResponse(code, name);
+//                        continuation.continueTask();
+//                        userDialog.dismiss();
+//                        showWaitDialog("Completing TOTP registration...");
+//                    }
+//
+//                } catch (Exception e) {
+//                    // Log failure
+//                }
+//            }
+//        }).setPositiveButton("Cancel", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                try {
+//                    userDialog.dismiss();
+//                    totpSwitch.setChecked(false);
+//                } catch (Exception e) {
+//                    // Log failure
+//                }
+//            }
+//        });
+//        userDialog = builder.create();
+//        userDialog.show();
+//    }
+//
+//    private void exit() {
+//        Intent intent = new Intent();
+//        intent.putExtra("refresh",settingsChanged);
+//        setResult(RESULT_OK, intent);
+//        finish();
+//    }
     }
 }

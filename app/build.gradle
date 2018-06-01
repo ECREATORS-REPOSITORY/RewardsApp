@@ -42,75 +42,55 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation fileTree(include: ['*.jar'], dir: 'app/libs')
     // implementation 'com.android.support:appcompat-v7:27.1.1'
-     implementation 'com.android.support:appcompat-v7:27.1.1'
+    // implementation 'com.android.support:appcompat-v7:27.0.1'
     implementation 'com.android.support:design:27.1.1'
     // implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
     implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
-      //  exclude group: 'com.amazonaws', module:'aws-android-sdk-core'
-
 
     implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.+'
-        //exclude group: 'com.amazonaws', module:'aws-android-sdk-cor
-        //exclude group: 'com.amazonaws', module: "aws-java-sdk-core"
-
     implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.6.+'
-       //exclude group: 'com.amazonaws', module:'aws-android-sdk-core'
-
-
-
     implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.6.+'
-       // exclude group: 'com.amazonaws', module:'aws-android-sdk-core'
-
-       // exclude group: 'com.amazonaws', module: "aws-java-sdk-core"
-
     implementation 'com.amazonaws:aws-android-sdk-apigateway-core:2.6.+'
-       // exclude group: 'com.amazonaws', module: "aws-java-sdk-core"
-
     // implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.6.+'
     // implementation 'com.android.support.constraint:constraint-layout:1.0.0-beta3'
     //implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.6.8'
     //  implementation group: 'com.amazonaws', name: 'aws-android-sdk-lambda', version: '2.6.+'
-    //implementation (group: 'com.amazonaws', name: 'aws-java-sdk-lambda', version: '1.11.337')
-
-    //implementation group:'com.amazonaws' ,name:'aws-java-sdk-core' , version:'1.11.337'
+    /*implementation (group: 'com.amazonaws', name: 'aws-java-sdk-lambda', version: '1.11.337'){
+    exclude group:'com.fasterxml.jackson.core'
+        exclude group: 'org.apache.httpcomponents'
+        exclude group:'commons-codec'
+        exclude group:'commons-logging'
+        exclude group:'ion-java'
+        exclude group:'jmespath-java'
+        exclude group:'joda-time'
+    }*/
     //implementation group: 'com.amazonaws', name: 'aws-android-sdk-lambda', version: '2.6.20'
     //implementation 'com.amazonaws:aws-android-sdk-core:2.1.+'
 
     // implementation group: 'com.amazonaws', name: 'aws-lambda-java-core', version: '1.0.0'
-   // implementation group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.9.16', ext: 'pom'
+    implementation group: 'com.amazonaws', name: 'aws-java-sdk-bom', version: '1.11.+', ext: 'pom'
     // https://mvnrepository.com/artifact/com.amazonaws/aws-android-sdk-core
     //  implementation group: 'com.amazonaws', name: 'aws-android-sdk-core', version: '2.6.+'
 
-
+    configurations {
+        implementation.exclude group: 'org.apache.httpcomponents', module: "httpclient"
+        implementation.exclude group: 'org.apache.httpcomponents', module: "httpcore"
+    }
 
 
     // implementation group: 'com.amazonaws', name: 'aws-java-sdk-code-generator', version: '1.11.336'
 
 
-  //  implementation group: 'com.amazonaws', name: 'aws-android-sdk-core-bom', version: '1.11', ext: 'pom'
     implementation 'com.facebook.android:facebook-android-sdk:4.12.0'
     implementation('com.amazonaws:aws-android-sdk-auth-core:2.6.+@aar') {
         transitive = true;
-        //exclude group: 'com.amazonaws', module:'aws-android-sdk-core'
-       // exclude group: 'com.amazonaws', module: "aws-java-sdk-core"
     }
     implementation('com.amazonaws:aws-android-sdk-auth-ui:2.6.+@aar') {
-      //  exclude group: 'com.amazonaws', module: "aws-java-sdk-core"
         transitive = true;
-       // exclude group: 'com.amazonaws', module:'aws-android-sdk-core'
     }
     implementation('com.amazonaws:aws-android-sdk-auth-userpools:2.6.+@aar') {
         transitive = true;
-     //   exclude group: 'com.amazonaws', module:'aws-android-sdk-core'
     }
-  //  implementation group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.117'
-//Thanks for using https://jar-download.com
-
-    // https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core
-  //  implementation group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.337'
-  //  implementation group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.337'
-    //implementation group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.0.002'
-    //implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
     implementation 'com.android.support:multidex:1.0.0'
     implementation 'com.google.code.gson:gson:2.7'
     implementation 'com.android.support:support-v4:27.1.1'
@@ -118,6 +98,7 @@ dependencies {
     /* implementation group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: '4.3.5.1'
      implementation (group: 'org.apache.httpcomponents' , name: 'httpmime' , version: '4.3.5') {
          exclude module: 'org.apache.httpcomponents:httpclient'}
+
      configurations {
          all*.exclude group: 'com.android.support', module: 'support-v13'
      }
@@ -148,3 +129,4 @@ repositories {
         dirs 'libs'
     }
 }
+
