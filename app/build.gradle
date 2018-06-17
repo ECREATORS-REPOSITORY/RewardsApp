@@ -47,8 +47,18 @@ dependencies {
     // implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
     implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
 
-    implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.+'
+    //implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.+'
     implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.6.+'
+
+    implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-core:2.4.4'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.4.4'
+    implementation 'com.amazonaws:aws-android-sdk-ddb-document:2.4.4'
+    implementation group: 'com.shamanland', name: 'xdroid-toaster', version: '0.0.5'
+
+
     implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.6.+'
     implementation 'com.amazonaws:aws-android-sdk-apigateway-core:2.6.+'
     // implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.6.+'
@@ -118,7 +128,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     implementation 'com.google.code.gson:gson:2.8.2'*/
 //Thanks for using https://jar-download.com
-
+    //implementation 'com.amazonaws:aws-lambda-java-core:1.0.0'
 
 
 }
