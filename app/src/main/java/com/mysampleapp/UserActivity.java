@@ -3,11 +3,15 @@ package com.mysampleapp;
 
 //import org.apache.http.client.ResponseHandler;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -25,6 +29,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.amazonaws.auth.CognitoCachingCredentialsProvider;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserAttributes;
@@ -34,19 +39,37 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
+import com.amazonaws.mobileconnectors.dynamodbv2.document.Table;
+import com.amazonaws.mobileconnectors.dynamodbv2.document.datatype.Document;
+import com.amazonaws.mobileconnectors.dynamodbv2.document.datatype.Primitive;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBMapper;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBQueryExpression;
+import com.amazonaws.regions.Region;
+import com.amazonaws.regions.Regions;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
+import com.amazonaws.services.dynamodbv2.model.DescribeTableResult;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
+import xdroid.toaster.Toaster;
+
+import static com.amazonaws.mobile.util.ThreadUtils.runOnUiThread;
+import static com.amazonaws.services.kms.model.KeyManagerType.AWS;
 
 
 public class UserActivity extends AppCompatActivity {
 
     protected static String TAG1 = "JSONServerNetworkUtil";
-
     public static final String PARAM_SESSION_ID = "sessid";
     public static final String PARAM_USERNAME = "name";
     public static final String PARAM_PASSWORD = "pass";
@@ -75,7 +98,7 @@ public class UserActivity extends AppCompatActivity {
     private CognitoUser user;
     private CognitoUserSession session;
     private CognitoUserDetails details;
-
+    private DynamoDBMapper mapper;
     // User details
     private String username;
 
@@ -110,9 +133,22 @@ public class UserActivity extends AppCompatActivity {
         navHeaderSubTitle.setText(username);
        // Button bot=findViewById(R.id.viewReward);
         //bot.setOnClickListener("");
+        /*AmazonDynamoDBClient dynamoDBClient = new AmazonDynamoDBClient(AWSMobileClient.getInstance().getCredentialsProvider());
+        this.dynamoDBMapper = DynamoDBMapper.builder()
+                .dynamoDBClient(dynamoDBClient)
+                .awsConfiguration(AWSMobileClient.getInstance().getConfiguration())
+                .build();*/
+
+        /*AWS.config.credentials.get(function(){
+            // Access AWS resources here.
+            console.log('Access Token is '+ AWS.config.credentials.identityId);
+            var s3= new AWS.s3();
+
+        });*/
+
 
     }
-    public void viewRewardHandler(View target) {
+    public void viewRewardHandler(final View target) {
         // Do stuff
         //Toast.makeText("","inside view rewards");
         //prepareAndSendHttpPost(AUTH_URI,NULL);
@@ -139,14 +175,63 @@ public class UserActivity extends AppCompatActivity {
         }
 
         System.out.println(invokeResult.getStatusCode());*/
-/*
-        InvokeRequest request = new InvokeRequest();
-        request.withFunctionName(functionName).withPayload(payload);
-        InvokeResult invoke = client.invoke(request);
-        System.out.println("Result invoking " + functionName + ": " + invoke);*/
+        //rewardThread(target);
+         final Handler handlerIntentStart = new Handler() {
 
-        Intent aboutAppActivity2 = new Intent(this, AboutApp.class);
-        startActivity(aboutAppActivity2);
+            /*
+             * (non-Javadoc)
+             *
+             * @see android.os.Handler#handleMessage(android.os.Message)
+             */
+            @Override
+            public void handleMessage(Message msg) {
+
+                // ****** Acitity class must be added in manifest
+                Intent aboutAppActivity2 = new Intent(".AboutApp");
+                startActivity(aboutAppActivity2);
+            }
+
+        };
+        Thread thread = new Thread(new Runnable() {
+
+            @Override
+            public void run() {
+                try  {
+                    //Your code goes here
+                    //DynamoDBQueryExpression<TESTFROMCODE> queryExpression = new DynamoDBQueryExpression<TESTFROMCODE>();
+                    CognitoCachingCredentialsProvider credentialsProvider = new CognitoCachingCredentialsProvider(
+                            getApplicationContext(), "ap-south-1:e98809fd-9c8e-430f-be85-b4e2c5908fe9", Regions.AP_SOUTH_1);
+                    AmazonDynamoDBClient dbClient = new AmazonDynamoDBClient(credentialsProvider);
+                   // Toaster.toast(dbClient.getSignerRegionOverride());
+                    dbClient.setRegion(Region.getRegion(Regions.AP_SOUTH_1));
+                    DescribeTableResult res = dbClient.describeTable("ecreators_user_app_rewards");
+                    Toaster.toast(res.getTable().getTableName());
+                  //  Toast.makeText(getApplicationContext(),  "dbclient: " + dbClient, Toast.LENGTH_LONG).show();
+                    // Table dbTable = Table.loadTable(dbClient, "Movies");
+                    //dbTable.getItem(new Primitive("2013"), new Primitive("2 Guns"));
+                    mapper = new DynamoDBMapper(dbClient);
+                    UserRewards partitionKey = new UserRewards();
+
+                    partitionKey.setUserId(user.getUserId());
+                    DynamoDBQueryExpression<UserRewards> queryExpression = new DynamoDBQueryExpression<UserRewards>()
+                            .withHashKeyValues(partitionKey);
+
+                    List<UserRewards> itemList = mapper.query(UserRewards.class, queryExpression);
+
+                    //  Start the activity based on urs and use Item list to render the data.
+                    Intent aboutAppActivity2 = new Intent(UserActivity.this, AboutApp.class);
+                    //Intent aboutAppActivity2 = new Intent(".AboutApp");
+                    startActivity(aboutAppActivity2);
+                } catch (Exception e) {
+                  //  e.printStackTrace();
+                    //handlerIntentStart.sendEmptyMessage(0);
+                    Intent aboutAppActivity2 = new Intent(UserActivity.this, AboutApp.class);
+                    startActivity(aboutAppActivity2);
+                    Toaster.toast(e.getMessage());
+                }
+            }
+        });
+        thread.start();
 
     }
     @Override
@@ -155,6 +240,37 @@ public class UserActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.activity_user_menu, menu);
         return true;
     }
+    public void rewardThread(final View v){
+
+        Thread thread = new Thread(new Runnable() {
+
+            @Override
+            public void run() {
+                    try  {
+                    //Your code goes here
+
+                    DynamoDBQueryExpression<TESTFROMCODE> queryExpression = new DynamoDBQueryExpression<TESTFROMCODE>();
+                        TESTFROMCODE     book = mapper.load(TESTFROMCODE.class, "Kona");
+                    v.post(new Runnable() {
+                        public void run() {
+                        //    Toast.makeText(getApplicationContext(),  "dbclient: " + book, Toast.LENGTH_LONG).show();
+                            //Intent aboutAppActivity2 = new Intent(this, AboutApp.class);
+                           // startActivity(aboutAppActivity2);
+                         //   Activity.runOnUiThread()
+                        }
+                    });
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        thread.start();
+       /* Toast.makeText(getApplicationContext(),  "dbclient: " + book, Toast.LENGTH_LONG).show();
+        Intent aboutAppActivity2 = new Intent(this, AboutApp.class);
+        startActivity(aboutAppActivity2);*/
+    }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
