@@ -45,22 +45,22 @@ dependencies {
     // implementation 'com.android.support:appcompat-v7:27.0.1'
     implementation 'com.android.support:design:27.1.1'
     // implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.20'
 
     //implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.6.20'
 
-    implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.+'
+   // implementation 'com.amazonaws:aws-android-sdk-core:2.6.+'
+    //implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.6.20'
     implementation 'com.amazonaws:aws-android-sdk-core:2.4.4'
     implementation 'com.amazonaws:aws-android-sdk-ddb:2.4.4'
     implementation 'com.amazonaws:aws-android-sdk-ddb-document:2.4.4'
     implementation group: 'com.shamanland', name: 'xdroid-toaster', version: '0.0.5'
 
 
-    implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-apigateway-core:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.6.20'
+    implementation 'com.amazonaws:aws-android-sdk-apigateway-core:2.6.20'
     // implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.6.+'
     // implementation 'com.android.support.constraint:constraint-layout:1.0.0-beta3'
     //implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.6.8'
@@ -92,13 +92,13 @@ dependencies {
 
 
     implementation 'com.facebook.android:facebook-android-sdk:4.12.0'
-    implementation('com.amazonaws:aws-android-sdk-auth-core:2.6.+@aar') {
+    implementation('com.amazonaws:aws-android-sdk-auth-core:2.6.20@aar') {
         transitive = true;
     }
-    implementation('com.amazonaws:aws-android-sdk-auth-ui:2.6.+@aar') {
+    implementation('com.amazonaws:aws-android-sdk-auth-ui:2.6.20@aar') {
         transitive = true;
     }
-    implementation('com.amazonaws:aws-android-sdk-auth-userpools:2.6.+@aar') {
+    implementation('com.amazonaws:aws-android-sdk-auth-userpools:2.6.20@aar') {
         transitive = true;
     }
     implementation 'com.android.support:multidex:1.0.0'
